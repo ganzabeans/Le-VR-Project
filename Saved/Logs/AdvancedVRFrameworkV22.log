@@ -1,4 +1,4 @@
-﻿Log file open, 03/04/20 18:32:09
+﻿Log file open, 03/10/20 12:08:27
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
@@ -9,7 +9,7 @@ LogConsoleResponse: Display: Failed to find resolution value strings in scalabil
 LogInit: Display: Running engine for game: AdvancedVRFrameworkV22
 LogPlatformFile: Not using cached read wrapper
 LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.183184
+LogStats: Stats thread started at 10.639588
 LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
 LogICUInternationalization: ICU TimeZone Detection - Raw Offset: -8:00, Platform Override: ''
 LogPluginManager: Mounting plugin Paper2D
@@ -166,563 +166,610 @@ LogInit: Presizing for max 25165824 objects, including 0 objects not considered 
 LogInit: Object subsystem initialized
 LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
 LogConfig: Setting CVar [[r.setres:1280x720]]
-[2020.03.05-02.32.10:677][  0]LogConfig: Setting CVar [[r.VSync:0]]
-[2020.03.05-02.32.10:677][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
-[2020.03.05-02.32.10:678][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [D:/GitHub/Le-VR-Project/Saved/Config/Windows/Engine.ini]
-[2020.03.05-02.32.10:678][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
-[2020.03.05-02.32.10:678][  0]LogConfig: Setting CVar [[r.CustomDepth:3]]
-[2020.03.05-02.32.10:678][  0]LogConfig: Setting CVar [[r.DefaultFeature.Bloom:1]]
-[2020.03.05-02.32.10:678][  0]LogConfig: Setting CVar [[r.DefaultFeature.AutoExposure:0]]
-[2020.03.05-02.32.10:678][  0]LogConfig: Setting CVar [[vr.InstancedStereo:1]]
-[2020.03.05-02.32.10:678][  0]LogConfig: Setting CVar [[r.ForwardShading:0]]
-[2020.03.05-02.32.10:678][  0]LogConfig: Setting CVar [[r.DefaultFeature.MotionBlur:0]]
-[2020.03.05-02.32.10:678][  0]LogConfig: Setting CVar [[r.CustomDepthTemporalAAJitter:1]]
-[2020.03.05-02.32.10:678][  0]LogConfig: Setting CVar [[r.MobileMSAA:1]]
-[2020.03.05-02.32.10:678][  0]LogConfig: Setting CVar [[r.TextureStreaming:0]]
-[2020.03.05-02.32.10:678][  0]LogConfig: Setting CVar [[r.DefaultFeature.AmbientOcclusion:1]]
-[2020.03.05-02.32.10:678][  0]LogConfig: Setting CVar [[r.DefaultFeature.AmbientOcclusionStaticFraction:1]]
-[2020.03.05-02.32.10:678][  0]LogConfig: Setting CVar [[r.ReflectionCaptureResolution:256]]
-[2020.03.05-02.32.10:678][  0]LogConfig: Setting CVar [[r.DefaultFeature.AutoExposure.Method:0]]
-[2020.03.05-02.32.10:678][  0]LogConfig: Setting CVar [[r.AllowGlobalClipPlane:0]]
-[2020.03.05-02.32.10:678][  0]LogConfig: Setting CVar [[r.NormalMapsForStaticLighting:1]]
-[2020.03.05-02.32.10:678][  0]LogConfig: Setting CVar [[r.DefaultFeature.AntiAliasing:2]]
-[2020.03.05-02.32.10:678][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [D:/GitHub/Le-VR-Project/Saved/Config/Windows/Engine.ini]
-[2020.03.05-02.32.10:678][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [D:/GitHub/Le-VR-Project/Saved/Config/Windows/Engine.ini]
-[2020.03.05-02.32.10:678][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
-[2020.03.05-02.32.10:678][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
-[2020.03.05-02.32.10:678][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
-[2020.03.05-02.32.10:678][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
-[2020.03.05-02.32.10:678][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
-[2020.03.05-02.32.10:678][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
-[2020.03.05-02.32.10:678][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
-[2020.03.05-02.32.10:678][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
-[2020.03.05-02.32.10:678][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
-[2020.03.05-02.32.10:678][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
-[2020.03.05-02.32.10:678][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
-[2020.03.05-02.32.10:678][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
-[2020.03.05-02.32.10:678][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
-[2020.03.05-02.32.10:678][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
-[2020.03.05-02.32.10:678][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [D:/GitHub/Le-VR-Project/Saved/Config/Windows/Engine.ini]
-[2020.03.05-02.32.10:678][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
-[2020.03.05-02.32.10:678][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
-[2020.03.05-02.32.10:678][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
-[2020.03.05-02.32.10:678][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
-[2020.03.05-02.32.10:678][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
-[2020.03.05-02.32.10:678][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
-[2020.03.05-02.32.10:678][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
-[2020.03.05-02.32.10:678][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
-[2020.03.05-02.32.10:678][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
-[2020.03.05-02.32.10:678][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
-[2020.03.05-02.32.10:678][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
-[2020.03.05-02.32.10:678][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
-[2020.03.05-02.32.10:678][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
-[2020.03.05-02.32.10:678][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [D:/GitHub/Le-VR-Project/Saved/Config/Windows/Engine.ini]
-[2020.03.05-02.32.10:678][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [D:/GitHub/Le-VR-Project/Saved/Config/Windows/Engine.ini]
-[2020.03.05-02.32.10:684][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [D:/GitHub/Le-VR-Project/Saved/Config/Windows/Scalability.ini]
-[2020.03.05-02.32.10:684][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
-[2020.03.05-02.32.10:684][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
-[2020.03.05-02.32.10:684][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [D:/GitHub/Le-VR-Project/Saved/Config/Windows/Scalability.ini]
-[2020.03.05-02.32.10:684][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
-[2020.03.05-02.32.10:684][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [D:/GitHub/Le-VR-Project/Saved/Config/Windows/Scalability.ini]
-[2020.03.05-02.32.10:684][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
-[2020.03.05-02.32.10:684][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
-[2020.03.05-02.32.10:684][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
-[2020.03.05-02.32.10:684][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
-[2020.03.05-02.32.10:684][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
-[2020.03.05-02.32.10:684][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
-[2020.03.05-02.32.10:684][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
-[2020.03.05-02.32.10:684][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
-[2020.03.05-02.32.10:684][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
-[2020.03.05-02.32.10:684][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
-[2020.03.05-02.32.10:684][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
-[2020.03.05-02.32.10:684][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
-[2020.03.05-02.32.10:684][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
-[2020.03.05-02.32.10:684][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
-[2020.03.05-02.32.10:684][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
-[2020.03.05-02.32.10:684][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
-[2020.03.05-02.32.10:684][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
-[2020.03.05-02.32.10:684][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
-[2020.03.05-02.32.10:684][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [D:/GitHub/Le-VR-Project/Saved/Config/Windows/Scalability.ini]
-[2020.03.05-02.32.10:684][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
-[2020.03.05-02.32.10:684][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
-[2020.03.05-02.32.10:685][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
-[2020.03.05-02.32.10:685][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
-[2020.03.05-02.32.10:685][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
-[2020.03.05-02.32.10:685][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
-[2020.03.05-02.32.10:685][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
-[2020.03.05-02.32.10:685][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
-[2020.03.05-02.32.10:685][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
-[2020.03.05-02.32.10:685][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
-[2020.03.05-02.32.10:685][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
-[2020.03.05-02.32.10:685][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
-[2020.03.05-02.32.10:685][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
-[2020.03.05-02.32.10:685][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
-[2020.03.05-02.32.10:685][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
-[2020.03.05-02.32.10:685][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
-[2020.03.05-02.32.10:685][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
-[2020.03.05-02.32.10:685][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
-[2020.03.05-02.32.10:685][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
-[2020.03.05-02.32.10:685][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
-[2020.03.05-02.32.10:685][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
-[2020.03.05-02.32.10:685][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
-[2020.03.05-02.32.10:685][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
-[2020.03.05-02.32.10:685][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
-[2020.03.05-02.32.10:685][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
-[2020.03.05-02.32.10:685][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
-[2020.03.05-02.32.10:685][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
-[2020.03.05-02.32.10:685][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
-[2020.03.05-02.32.10:685][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
-[2020.03.05-02.32.10:685][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
-[2020.03.05-02.32.10:685][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [D:/GitHub/Le-VR-Project/Saved/Config/Windows/Scalability.ini]
-[2020.03.05-02.32.10:685][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
-[2020.03.05-02.32.10:685][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
-[2020.03.05-02.32.10:685][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
-[2020.03.05-02.32.10:685][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
-[2020.03.05-02.32.10:685][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
-[2020.03.05-02.32.10:685][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
-[2020.03.05-02.32.10:685][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
-[2020.03.05-02.32.10:685][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
-[2020.03.05-02.32.10:685][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
-[2020.03.05-02.32.10:685][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [D:/GitHub/Le-VR-Project/Saved/Config/Windows/Scalability.ini]
-[2020.03.05-02.32.10:685][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
-[2020.03.05-02.32.10:685][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
-[2020.03.05-02.32.10:685][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
-[2020.03.05-02.32.10:685][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
-[2020.03.05-02.32.10:685][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
-[2020.03.05-02.32.10:685][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
-[2020.03.05-02.32.10:685][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
-[2020.03.05-02.32.10:685][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
-[2020.03.05-02.32.10:685][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
-[2020.03.05-02.32.10:685][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
-[2020.03.05-02.32.10:685][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
-[2020.03.05-02.32.10:685][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
-[2020.03.05-02.32.10:685][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
-[2020.03.05-02.32.10:685][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
-[2020.03.05-02.32.10:685][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
-[2020.03.05-02.32.10:685][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
-[2020.03.05-02.32.10:685][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
-[2020.03.05-02.32.10:685][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
-[2020.03.05-02.32.10:685][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
-[2020.03.05-02.32.10:685][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
-[2020.03.05-02.32.10:685][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
-[2020.03.05-02.32.10:685][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
-[2020.03.05-02.32.10:685][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
-[2020.03.05-02.32.10:685][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
-[2020.03.05-02.32.10:685][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
-[2020.03.05-02.32.10:685][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
-[2020.03.05-02.32.10:685][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [D:/GitHub/Le-VR-Project/Saved/Config/Windows/Scalability.ini]
-[2020.03.05-02.32.10:685][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
-[2020.03.05-02.32.10:685][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
-[2020.03.05-02.32.10:685][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [D:/GitHub/Le-VR-Project/Saved/Config/Windows/Scalability.ini]
-[2020.03.05-02.32.10:685][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
-[2020.03.05-02.32.10:685][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
-[2020.03.05-02.32.10:685][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
-[2020.03.05-02.32.10:685][  0]LogInit: Selected Device Profile: [Windows]
-[2020.03.05-02.32.10:685][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2020.03.05-02.32.10:688][  0]LogHAL: Display: Platform has ~ 16 GB [16981479424 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
-[2020.03.05-02.32.10:688][  0]LogInit: Going up to parent DeviceProfile []
-[2020.03.05-02.32.10:688][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [D:/GitHub/Le-VR-Project/Saved/Config/Windows/Scalability.ini]
-[2020.03.05-02.32.10:688][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
-[2020.03.05-02.32.10:688][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
-[2020.03.05-02.32.10:688][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [D:/GitHub/Le-VR-Project/Saved/Config/Windows/Scalability.ini]
-[2020.03.05-02.32.10:688][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
-[2020.03.05-02.32.10:688][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [D:/GitHub/Le-VR-Project/Saved/Config/Windows/Scalability.ini]
-[2020.03.05-02.32.10:688][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
-[2020.03.05-02.32.10:688][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
-[2020.03.05-02.32.10:688][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
-[2020.03.05-02.32.10:688][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
-[2020.03.05-02.32.10:688][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
-[2020.03.05-02.32.10:688][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
-[2020.03.05-02.32.10:688][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
-[2020.03.05-02.32.10:688][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
-[2020.03.05-02.32.10:688][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
-[2020.03.05-02.32.10:688][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
-[2020.03.05-02.32.10:688][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
-[2020.03.05-02.32.10:688][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
-[2020.03.05-02.32.10:688][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
-[2020.03.05-02.32.10:688][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
-[2020.03.05-02.32.10:688][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
-[2020.03.05-02.32.10:688][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
-[2020.03.05-02.32.10:688][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
-[2020.03.05-02.32.10:688][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
-[2020.03.05-02.32.10:688][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [D:/GitHub/Le-VR-Project/Saved/Config/Windows/Scalability.ini]
-[2020.03.05-02.32.10:688][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
-[2020.03.05-02.32.10:688][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
-[2020.03.05-02.32.10:688][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
-[2020.03.05-02.32.10:688][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
-[2020.03.05-02.32.10:688][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
-[2020.03.05-02.32.10:688][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
-[2020.03.05-02.32.10:688][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
-[2020.03.05-02.32.10:688][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
-[2020.03.05-02.32.10:688][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
-[2020.03.05-02.32.10:688][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
-[2020.03.05-02.32.10:688][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
-[2020.03.05-02.32.10:688][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
-[2020.03.05-02.32.10:688][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
-[2020.03.05-02.32.10:688][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
-[2020.03.05-02.32.10:688][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
-[2020.03.05-02.32.10:688][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
-[2020.03.05-02.32.10:688][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
-[2020.03.05-02.32.10:688][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
-[2020.03.05-02.32.10:688][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
-[2020.03.05-02.32.10:688][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
-[2020.03.05-02.32.10:688][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
-[2020.03.05-02.32.10:688][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
-[2020.03.05-02.32.10:688][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
-[2020.03.05-02.32.10:688][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
-[2020.03.05-02.32.10:688][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
-[2020.03.05-02.32.10:688][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
-[2020.03.05-02.32.10:688][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
-[2020.03.05-02.32.10:688][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
-[2020.03.05-02.32.10:688][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
-[2020.03.05-02.32.10:688][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
-[2020.03.05-02.32.10:688][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [D:/GitHub/Le-VR-Project/Saved/Config/Windows/Scalability.ini]
-[2020.03.05-02.32.10:688][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
-[2020.03.05-02.32.10:688][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
-[2020.03.05-02.32.10:688][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
-[2020.03.05-02.32.10:688][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
-[2020.03.05-02.32.10:688][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
-[2020.03.05-02.32.10:688][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
-[2020.03.05-02.32.10:688][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
-[2020.03.05-02.32.10:688][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
-[2020.03.05-02.32.10:688][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
-[2020.03.05-02.32.10:688][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [D:/GitHub/Le-VR-Project/Saved/Config/Windows/Scalability.ini]
-[2020.03.05-02.32.10:688][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
-[2020.03.05-02.32.10:688][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
-[2020.03.05-02.32.10:688][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
-[2020.03.05-02.32.10:688][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
-[2020.03.05-02.32.10:688][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
-[2020.03.05-02.32.10:688][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
-[2020.03.05-02.32.10:688][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
-[2020.03.05-02.32.10:688][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
-[2020.03.05-02.32.10:688][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
-[2020.03.05-02.32.10:688][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
-[2020.03.05-02.32.10:688][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
-[2020.03.05-02.32.10:688][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
-[2020.03.05-02.32.10:688][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
-[2020.03.05-02.32.10:689][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
-[2020.03.05-02.32.10:689][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
-[2020.03.05-02.32.10:689][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
-[2020.03.05-02.32.10:689][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
-[2020.03.05-02.32.10:689][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
-[2020.03.05-02.32.10:689][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
-[2020.03.05-02.32.10:689][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
-[2020.03.05-02.32.10:689][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
-[2020.03.05-02.32.10:689][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
-[2020.03.05-02.32.10:689][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
-[2020.03.05-02.32.10:689][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
-[2020.03.05-02.32.10:689][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
-[2020.03.05-02.32.10:689][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
-[2020.03.05-02.32.10:689][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [D:/GitHub/Le-VR-Project/Saved/Config/Windows/Scalability.ini]
-[2020.03.05-02.32.10:689][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
-[2020.03.05-02.32.10:689][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
-[2020.03.05-02.32.10:689][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [D:/GitHub/Le-VR-Project/Saved/Config/Windows/Scalability.ini]
-[2020.03.05-02.32.10:689][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
-[2020.03.05-02.32.10:689][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
-[2020.03.05-02.32.10:689][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
-[2020.03.05-02.32.10:689][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
-[2020.03.05-02.32.10:689][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
-[2020.03.05-02.32.10:689][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
-[2020.03.05-02.32.10:689][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [D:/GitHub/Le-VR-Project/Saved/Config/Windows/Engine.ini]
-[2020.03.05-02.32.10:689][  0]LogInit: Computer: XENOSEMPIRE
-[2020.03.05-02.32.10:689][  0]LogInit: User: Ralphy
-[2020.03.05-02.32.10:689][  0]LogInit: CPU Page size=4096, Cores=4
-[2020.03.05-02.32.10:689][  0]LogInit: High frequency timer resolution =10.000000 MHz
-[2020.03.05-02.32.10:689][  0]LogMemory: Memory total: Physical=15.8GB (16GB approx)
-[2020.03.05-02.32.10:689][  0]LogMemory: Platform Memory Stats for Windows
-[2020.03.05-02.32.10:689][  0]LogMemory: Process Physical Memory: 111.10 MB used, 111.10 MB peak
-[2020.03.05-02.32.10:689][  0]LogMemory: Process Virtual Memory: 103.96 MB used, 103.96 MB peak
-[2020.03.05-02.32.10:689][  0]LogMemory: Physical Memory: 6607.45 MB used,  9587.35 MB free, 16194.80 MB total
-[2020.03.05-02.32.10:689][  0]LogMemory: Virtual Memory: 5163.05 MB used,  134212568.00 MB free, 134217728.00 MB total
-[2020.03.05-02.32.10:696][  0]LogWindows: WindowsPlatformFeatures enabled
-[2020.03.05-02.32.10:724][  0]LogInit: Using OS detected language (en-US).
-[2020.03.05-02.32.10:724][  0]LogInit: Using OS detected locale (en-US).
-[2020.03.05-02.32.10:725][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
-[2020.03.05-02.32.10:931][  0]LogInit: Setting process to per monitor DPI aware
-[2020.03.05-02.32.10:985][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
-[2020.03.05-02.32.10:985][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
-[2020.03.05-02.32.11:251][  0]LogHMD: Failed to initialize OpenVR with code 126
-[2020.03.05-02.32.11:251][  0]LogD3D11RHI: D3D11 min allowed feature level: 11_0
-[2020.03.05-02.32.11:251][  0]LogD3D11RHI: D3D11 max allowed feature level: 11_0
-[2020.03.05-02.32.11:251][  0]LogD3D11RHI: D3D11 adapters:
-[2020.03.05-02.32.11:320][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1660 Ti' (Feature Level 11_0)
-[2020.03.05-02.32.11:320][  0]LogD3D11RHI:       5991/0/8097 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
-[2020.03.05-02.32.11:330][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 4600' (Feature Level 11_0)
-[2020.03.05-02.32.11:330][  0]LogD3D11RHI:       112/0/2048 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x8086
-[2020.03.05-02.32.11:337][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2020.03.05-02.32.11:337][  0]LogD3D11RHI:       0/0/8097 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2020.03.05-02.32.11:337][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2020.03.05-02.32.11:346][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2020.03.05-02.32.11:346][  0]LogD3D11RHI:     GPU DeviceId: 0x2182 (for the marketing name, search the web for "GPU Device Id")
-[2020.03.05-02.32.11:346][  0]LogWindows: EnumDisplayDevices:
-[2020.03.05-02.32.11:346][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1660 Ti' (P:1 D:1)
-[2020.03.05-02.32.11:346][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1660 Ti' (P:0 D:0)
-[2020.03.05-02.32.11:347][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1660 Ti' (P:0 D:0)
-[2020.03.05-02.32.11:347][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1660 Ti' (P:0 D:0)
-[2020.03.05-02.32.11:347][  0]LogWindows:    4. 'Intel(R) HD Graphics 4600' (P:0 D:1)
-[2020.03.05-02.32.11:347][  0]LogWindows:    5. 'Intel(R) HD Graphics 4600' (P:0 D:0)
-[2020.03.05-02.32.11:347][  0]LogWindows:    6. 'Intel(R) HD Graphics 4600' (P:0 D:0)
-[2020.03.05-02.32.11:348][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
-[2020.03.05-02.32.11:348][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1660 Ti
-[2020.03.05-02.32.11:348][  0]LogD3D11RHI:   Driver Version: 442.50 (internal:26.21.14.4250, unified:442.50)
-[2020.03.05-02.32.11:348][  0]LogD3D11RHI:      Driver Date: 2-24-2020
-[2020.03.05-02.32.11:348][  0]LogRHI: Texture pool is 4193 MB (70% of 5991 MB)
-[2020.03.05-02.32.11:400][  0]LogD3D11RHI: RHI has support for 64 bit atomics
-[2020.03.05-02.32.11:400][  0]LogD3D11RHI: Async texture creation enabled
-[2020.03.05-02.32.11:430][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
-[2020.03.05-02.32.11:798][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AllDesktop'
-[2020.03.05-02.32.11:833][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
-[2020.03.05-02.32.11:833][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
-[2020.03.05-02.32.11:833][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ATC'
-[2020.03.05-02.32.11:833][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
-[2020.03.05-02.32.11:833][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1'
-[2020.03.05-02.32.11:833][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1a'
-[2020.03.05-02.32.11:833][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
-[2020.03.05-02.32.11:833][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_PVRTC'
-[2020.03.05-02.32.11:833][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
-[2020.03.05-02.32.11:833][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
-[2020.03.05-02.32.11:833][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ATCClient'
-[2020.03.05-02.32.11:833][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
-[2020.03.05-02.32.11:833][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1Client'
-[2020.03.05-02.32.11:833][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1aClient'
-[2020.03.05-02.32.11:833][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
-[2020.03.05-02.32.11:833][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_PVRTCClient'
-[2020.03.05-02.32.11:833][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
-[2020.03.05-02.32.11:833][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
-[2020.03.05-02.32.11:852][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
-[2020.03.05-02.32.11:852][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
-[2020.03.05-02.32.11:860][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxNoEditor'
-[2020.03.05-02.32.11:869][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
-[2020.03.05-02.32.11:877][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
-[2020.03.05-02.32.11:885][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64NoEditor'
-[2020.03.05-02.32.11:892][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Client'
-[2020.03.05-02.32.11:902][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Server'
-[2020.03.05-02.32.11:929][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Lumin'
-[2020.03.05-02.32.11:929][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LuminClient'
-[2020.03.05-02.32.11:946][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
-[2020.03.05-02.32.11:946][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
-[2020.03.05-02.32.11:954][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
-[2020.03.05-02.32.11:962][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
-[2020.03.05-02.32.11:971][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
-[2020.03.05-02.32.11:979][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
-[2020.03.05-02.32.11:979][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2020.03.05-02.32.11:983][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
-[2020.03.05-02.32.12:006][  0]LogShaderCompilers: Guid format shader working directory is -16 characters bigger than the processId version (../../../../../GitHub/Le-VR-Project/Intermediate/Shaders/WorkingDirectory/17368/).
-[2020.03.05-02.32.12:006][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'D:/Temp/UnrealShaderWorkingDir/F0D41C8E49F64F7DDB8394A3FDDC70F6/'.
-[2020.03.05-02.32.12:007][  0]LogXGEController: Cleaning working directory: D:/Temp/UnrealXGEWorkingDir/
-[2020.03.05-02.32.12:007][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
-[2020.03.05-02.32.12:007][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
-[2020.03.05-02.32.12:007][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2020.03.05-02.32.12:778][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2020.03.05-02.32.12:861][  0]LogDerivedDataCache: Loaded boot cache 0.08s 103MB C:/Users/Ralphy/AppData/Local/UnrealEngine/4.24/DerivedDataCache/Boot.ddc.
-[2020.03.05-02.32.12:861][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Ralphy/AppData/Local/UnrealEngine/4.24/DerivedDataCache/Boot.ddc
-[2020.03.05-02.32.12:861][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../GitHub/Le-VR-Project/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2020.03.05-02.32.12:861][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2020.03.05-02.32.12:861][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../GitHub/Le-VR-Project/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2020.03.05-02.32.12:861][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2020.03.05-02.32.12:872][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2020.03.05-02.32.12:873][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2020.03.05-02.32.12:873][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
-[2020.03.05-02.32.12:874][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Ralphy/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2020.03.05-02.32.12:874][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
-[2020.03.05-02.32.12:874][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
-[2020.03.05-02.32.12:900][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2020.03.05-02.32.12:903][  0]LogSlate: Using FreeType 2.10.0
-[2020.03.05-02.32.12:903][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2020.03.05-02.32.12:965][  0]LogAssetRegistry: FAssetRegistry took 0.0028 seconds to start up
-[2020.03.05-02.32.13:293][  0]LogInit: Selected Device Profile: [Windows]
-[2020.03.05-02.32.13:465][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2020.03.05-02.32.13:465][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
-[2020.03.05-02.32.13:465][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
-[2020.03.05-02.32.13:465][  0]LogMeshReduction: No distributed automatic mesh merging module available
-[2020.03.05-02.32.13:465][  0]LogMeshMerging: No distributed automatic mesh merging module available
-[2020.03.05-02.32.13:483][  0]LogNetVersion: AdvancedVRFrameworkV22 1.0.0, NetCL: 10570792, EngineNetVer: 13, GameNetVer: 0 (Checksum: 3434068971)
-[2020.03.05-02.32.14:711][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 1 prioritized culture(s) in 0.060084 seconds
-[2020.03.05-02.32.14:719][  0]LogUObjectArray: 46750 objects as part of root set at end of initial load.
-[2020.03.05-02.32.14:719][  0]LogUObjectAllocator: 8137160 out of 0 bytes used by permanent object pool.
-[2020.03.05-02.32.14:719][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2020.03.05-02.32.15:162][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2020.03.05-02.32.15:165][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2020.03.05-02.32.15:218][  0]LogLinker: Warning: Asset '../../Plugins/Runtime/WebBrowserWidget/Content/WebTexture_M.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2020.03.05-02.32.15:218][  0]LogLinker: Warning: Asset '../../Plugins/Runtime/WebBrowserWidget/Content/WebTexture_T.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2020.03.05-02.32.15:228][  0]LogLinker: Warning: Asset '../../Plugins/Runtime/WebBrowserWidget/Content/WebTexture_TM.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2020.03.05-02.32.15:322][  0]SourceControl: Source control is disabled
-[2020.03.05-02.32.15:322][  0]SourceControl: Source control is disabled
-[2020.03.05-02.32.15:324][  0]SourceControl: Source control is disabled
-[2020.03.05-02.32.15:325][  0]SourceControl: Source control is disabled
-[2020.03.05-02.32.15:326][  0]SourceControl: Source control is disabled
-[2020.03.05-02.32.15:422][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2020.03.05-02.32.15:434][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
-[2020.03.05-02.32.15:434][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
-[2020.03.05-02.32.15:535][  0]LogOcInput: OculusInput pre-init called
-[2020.03.05-02.32.16:302][  0]LogEngine: Initializing Engine...
-[2020.03.05-02.32.16:340][  0]LogHMD: Failed to initialize OpenVR with code 126
-[2020.03.05-02.32.16:355][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.014 s
-[2020.03.05-02.32.16:730][  0]LogInit: Initializing FReadOnlyCVARCache
-[2020.03.05-02.32.16:738][  0]LogAIModule: Creating AISystem for world Untitled
-[2020.03.05-02.32.16:752][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
-[2020.03.05-02.32.16:753][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
-[2020.03.05-02.32.16:753][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
-[2020.03.05-02.32.16:753][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
-[2020.03.05-02.32.16:753][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
-[2020.03.05-02.32.16:753][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
-[2020.03.05-02.32.16:753][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
-[2020.03.05-02.32.16:753][  0]LogAudio: Display: AudioDevice MaxSources: 32
-[2020.03.05-02.32.16:753][  0]LogAudio: Display: Using built-in audio occlusion.
-[2020.03.05-02.32.16:753][  0]LogAudioMixer: Display: Initializing audio mixer.
-[2020.03.05-02.32.16:806][  0]LogAudioMixer: Display: Audio Device Output Speaker Info:
-[2020.03.05-02.32.16:806][  0]LogAudioMixer: Display: Name: Speakers (Realtek High Definition Audio)
-[2020.03.05-02.32.16:806][  0]LogAudioMixer: Display: Is Default: Yes
-[2020.03.05-02.32.16:806][  0]LogAudioMixer: Display: Sample Rate: 48000
-[2020.03.05-02.32.16:806][  0]LogAudioMixer: Display: Channel Count Used: 2
-[2020.03.05-02.32.16:806][  0]LogAudioMixer: Display: Device Channel Count: 2
-[2020.03.05-02.32.16:806][  0]LogAudioMixer: Display: Channel Order:
-[2020.03.05-02.32.16:806][  0]LogAudioMixer: Display: 0: FrontLeft
-[2020.03.05-02.32.16:806][  0]LogAudioMixer: Display: 1: FrontRight
-[2020.03.05-02.32.16:856][  0]LogAudioMixer: Display: Using Audio Device Speakers (Realtek High Definition Audio)
-[2020.03.05-02.32.16:861][  0]LogInit: FAudioDevice initialized.
-[2020.03.05-02.32.16:861][  0]LogNetVersion: Set ProjectVersion to 2.0. Version Checksum will be recalculated on next use.
-[2020.03.05-02.32.17:079][  0]LogDerivedDataCache: Saved boot cache 0.22s 103MB C:/Users/Ralphy/AppData/Local/UnrealEngine/4.24/DerivedDataCache/Boot.ddc.
-[2020.03.05-02.32.17:086][  0]LogInit: Texture streaming: Disabled
-[2020.03.05-02.32.17:095][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2020.03.05-02.32.17:095][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
-[2020.03.05-02.32.17:097][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
-[2020.03.05-02.32.17:154][  0]LogInit: Transaction tracking system initialized
-[2020.03.05-02.32.17:165][  0]BlueprintLog: New page: Editor Load
-[2020.03.05-02.32.17:199][  0]LocalizationService: Localization service is disabled
-[2020.03.05-02.32.17:515][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2020.03.05-02.32.17:515][  0]LogCook: Display: Mobile HDR setting 1
-[2020.03.05-02.32.17:560][  0]LogFileCache: Scanning file cache for directory 'D:/GitHub/Le-VR-Project/Content/' took 0.04s
-[2020.03.05-02.32.18:289][  0]SourceControl: Source control is disabled
-[2020.03.05-02.32.18:289][  0]Cmd: MAP LOAD FILE="../../../../../GitHub/Le-VR-Project/Content/AVRFramework/Experiences/Demospace/Maps/Streaming/Map_Demo_Menu.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2020.03.05-02.32.18:294][  0]LightingResults: New page: Lighting Build
-[2020.03.05-02.32.18:294][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
-[2020.03.05-02.32.18:295][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2020.03.05-02.32.18:295][  0]MapCheck: New page: Map Check
-[2020.03.05-02.32.18:295][  0]LightingResults: New page: Lighting Build
-[2020.03.05-02.32.18:320][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.95ms
-[2020.03.05-02.32.23:531][  0]LogBlueprint: Warning: [Compiler BP_Pawn_VR] GetInputAxisKey Value specifies FKey'MotionController_Left_Thumbstick_X' which has been deprecated for  Get MotionController (L) Thumbstick X
-[2020.03.05-02.32.23:531][  0]LogBlueprint: Warning: [Compiler BP_Pawn_VR] GetInputAxisKey Value specifies FKey'MotionController_Right_Thumbstick_X' which has been deprecated for  Get MotionController (R) Thumbstick X
-[2020.03.05-02.32.23:531][  0]LogBlueprint: Warning: [Compiler BP_Pawn_VR] GetInputAxisKey Value specifies FKey'MotionController_Left_Thumbstick_Y' which has been deprecated for  Get MotionController (L) Thumbstick Y
-[2020.03.05-02.32.23:531][  0]LogBlueprint: Warning: [Compiler BP_Pawn_VR] GetInputAxisKey Value specifies FKey'MotionController_Right_Thumbstick_Y' which has been deprecated for  Get MotionController (R) Thumbstick Y
-[2020.03.05-02.32.23:532][  0]LogBlueprint: Warning: [Compiler BP_Pawn_VR] InputAxisKey Event specifies FKey'MotionController_Right_TriggerAxis' which has been deprecated for  MotionController (R) TriggerAxis
-[2020.03.05-02.32.23:532][  0]LogBlueprint: Warning: [Compiler BP_Pawn_VR] InputAxisKey Event specifies FKey'MotionController_Left_TriggerAxis' which has been deprecated for  MotionController (L) TriggerAxis
-[2020.03.05-02.32.23:534][  0]LogBlueprint: Warning: [Compiler BP_Pawn_VR] InputKey Event specifies FKey'MotionController_Right_Thumbstick' which has been deprecated for  MotionController (R) Thumbstick
-[2020.03.05-02.32.23:534][  0]LogBlueprint: Warning: [Compiler BP_Pawn_VR] InputAxisKey Event specifies FKey'MotionController_Right_Grip1Axis' which has been deprecated for  MotionController (R) Grip1 Axis
-[2020.03.05-02.32.23:534][  0]LogBlueprint: Warning: [Compiler BP_Pawn_VR] InputAxisKey Event specifies FKey'OculusTouch_Right_ThumbUp' that is not blueprint bindable for  Oculus Touch (R) Thumb Up CapTouch
-[2020.03.05-02.32.23:535][  0]LogBlueprint: Warning: [Compiler BP_Pawn_VR] InputAxisKey Event specifies FKey'OculusTouch_Right_IndexPointing' that is not blueprint bindable for  Oculus Touch (R) Pointing CapTouch
-[2020.03.05-02.32.23:535][  0]LogBlueprint: Warning: [Compiler BP_Pawn_VR] InputAxisKey Event specifies FKey'MotionController_Left_Grip1Axis' which has been deprecated for  MotionController (L) Grip1 Axis
-[2020.03.05-02.32.23:535][  0]LogBlueprint: Warning: [Compiler BP_Pawn_VR] InputAxisKey Event specifies FKey'OculusTouch_Left_ThumbUp' that is not blueprint bindable for  Oculus Touch (L) Thumb Up CapTouch
-[2020.03.05-02.32.23:535][  0]LogBlueprint: Warning: [Compiler BP_Pawn_VR] InputAxisKey Event specifies FKey'OculusTouch_Left_IndexPointing' that is not blueprint bindable for  Oculus Touch (L) Pointing CapTouch
-[2020.03.05-02.32.23:535][  0]LogBlueprint: Warning: [Compiler BP_Pawn_VR] InputKey Event specifies FKey'MotionController_Right_FaceButton4' which has been deprecated for  MotionController (R) FaceButton4
-[2020.03.05-02.32.23:535][  0]LogBlueprint: Warning: [Compiler BP_Pawn_VR] InputKey Event specifies FKey'MotionController_Left_FaceButton4' which has been deprecated for  MotionController (L) FaceButton4
-[2020.03.05-02.32.23:535][  0]LogBlueprint: Warning: [Compiler BP_Pawn_VR] InputKey Event specifies FKey'MotionController_Right_FaceButton2' which has been deprecated for  MotionController (R) FaceButton2
-[2020.03.05-02.32.23:535][  0]LogBlueprint: Warning: [Compiler BP_Pawn_VR] InputKey Event specifies FKey'MotionController_Left_FaceButton2' which has been deprecated for  MotionController (L) FaceButton2
-[2020.03.05-02.32.23:535][  0]LogBlueprint: Warning: [Compiler BP_Pawn_VR] InputKey Event specifies FKey'MotionController_Left_FaceButton1' which has been deprecated for  MotionController (L) FaceButton1
-[2020.03.05-02.32.23:535][  0]LogBlueprint: Warning: [Compiler BP_Pawn_VR] InputKey Event specifies FKey'MotionController_Right_FaceButton3' which has been deprecated for  MotionController (R) FaceButton3
-[2020.03.05-02.32.23:535][  0]LogBlueprint: Warning: [Compiler BP_Pawn_VR] InputKey Event specifies FKey'MotionController_Left_FaceButton3' which has been deprecated for  MotionController (L) FaceButton3
-[2020.03.05-02.32.23:535][  0]LogBlueprint: Warning: [Compiler BP_Pawn_VR] InputKey Event specifies FKey'MotionController_Right_FaceButton1' which has been deprecated for  MotionController (R) FaceButton1
-[2020.03.05-02.32.23:535][  0]LogBlueprint: Warning: [Compiler BP_Pawn_VR] InputKey Event specifies FKey'MotionController_Left_Trigger' which has been deprecated for  MotionController (L) Trigger
-[2020.03.05-02.32.23:535][  0]LogBlueprint: Warning: [Compiler BP_Pawn_VR] InputKey Event specifies FKey'MotionController_Right_Trigger' which has been deprecated for  MotionController (R) Trigger
-[2020.03.05-02.32.23:536][  0]LogBlueprint: Warning: [Compiler BP_Pawn_VR] InputKey Event specifies FKey'MotionController_Right_Grip1' which has been deprecated for  MotionController (R) Grip1
-[2020.03.05-02.32.23:536][  0]LogBlueprint: Warning: [Compiler BP_Pawn_VR] InputKey Event specifies FKey'MotionController_Left_Grip1' which has been deprecated for  MotionController (L) Grip1
-[2020.03.05-02.32.23:536][  0]LogBlueprint: Warning: [Compiler BP_Pawn_VR] InputKey Event specifies FKey'MotionController_Right_Shoulder' which has been deprecated for  MotionController (R) Shoulder
-[2020.03.05-02.32.23:536][  0]LogBlueprint: Warning: [Compiler BP_Pawn_VR] InputKey Event specifies FKey'MotionController_Left_Shoulder' which has been deprecated for  MotionController (L) Shoulder
-[2020.03.05-02.32.23:536][  0]LogBlueprint: Warning: [Compiler BP_Pawn_VR] InputKey Event specifies FKey'MotionController_Left_Thumbstick' which has been deprecated for  MotionController (L) Thumbstick
-[2020.03.05-02.32.23:536][  0]LogBlueprint: Warning: [Compiler BP_Pawn_VR] GetInputAxisKey Value specifies FKey'MotionController_Right_Thumbstick_X' which has been deprecated for  Get MotionController (R) Thumbstick X
-[2020.03.05-02.32.23:536][  0]LogBlueprint: Warning: [Compiler BP_Pawn_VR] GetInputAxisKey Value specifies FKey'MotionController_Right_Thumbstick_Y' which has been deprecated for  Get MotionController (R) Thumbstick Y
-[2020.03.05-02.32.23:536][  0]LogBlueprint: Warning: [Compiler BP_Pawn_VR] GetInputAxisKey Value specifies FKey'MotionController_Left_Thumbstick_X' which has been deprecated for  Get MotionController (L) Thumbstick X
-[2020.03.05-02.32.23:536][  0]LogBlueprint: Warning: [Compiler BP_Pawn_VR] GetInputAxisKey Value specifies FKey'MotionController_Left_Thumbstick_Y' which has been deprecated for  Get MotionController (L) Thumbstick Y
-[2020.03.05-02.32.32:958][  0]LogAIModule: Creating AISystem for world Map_Demo_Menu
-[2020.03.05-02.32.33:005][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2020.03.05-02.32.33:192][  0]LogUObjectHash: Compacting FUObjectHashTables data took  11.54ms
-[2020.03.05-02.32.33:196][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2020.03.05-02.32.33:196][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.093ms to complete.
-[2020.03.05-02.32.33:197][  0]LogFileHelpers: Loading map 'Map_Demo_Menu' took 14.909
-[2020.03.05-02.32.33:405][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.03.05-02.32.33:413][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.03.05-02.32.33:421][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.03.05-02.32.33:429][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.03.05-02.32.33:435][  0]LogCollectionManager: Loaded 0 collections in 0.001949 seconds
-[2020.03.05-02.32.33:450][  0]LogFileCache: Scanning file cache for directory 'D:/GitHub/Le-VR-Project/Saved/Collections/' took 0.00s
-[2020.03.05-02.32.33:450][  0]LogFileCache: Scanning file cache for directory 'D:/GitHub/Le-VR-Project/Content/Developers/Ralphy/Collections/' took 0.00s
-[2020.03.05-02.32.33:450][  0]LogFileCache: Scanning file cache for directory 'D:/GitHub/Le-VR-Project/Content/Collections/' took 0.00s
-[2020.03.05-02.32.33:450][  0]LogContentBrowser: Native class hierarchy populated in 0.0101 seconds. Added 3031 classes and 733 folders.
-[2020.03.05-02.32.33:452][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0002 seconds. Added 0 classes and 0 folders.
-[2020.03.05-02.32.33:537][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0006 seconds. Added 0 classes and 0 folders.
-[2020.03.05-02.32.33:898][  0]LogSlate: Took 0.000287 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2020.03.05-02.32.33:900][  0]LogSlate: Took 0.000330 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2020.03.05-02.32.33:906][  0]LogSlate: Took 0.000408 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2020.03.05-02.32.33:993][  0]LogRenderer: Reallocating scene render targets to support 1020x576 Format 10 NumSamples 1 (Frame:1).
-[2020.03.05-02.32.34:154][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 0 classes and 0 folders.
-[2020.03.05-02.32.34:154][  0]LogLoad: (Engine Initialization) Total time: 25.95 seconds
-[2020.03.05-02.32.34:154][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2020.03.05-02.32.34:238][  0]LogSlate: Took 0.000436 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2020.03.05-02.32.34:281][  0]LogSlate: Took 0.000482 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2020.03.05-02.32.34:409][  2]LogAssetRegistry: Asset discovery search completed in 21.4455 seconds
-[2020.03.05-02.32.34:414][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000011 seconds (updated 0 objects)
-[2020.03.05-02.32.36:529][166]LogTemp: Repeating last play command: Selected Viewport
-[2020.03.05-02.32.36:546][166]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/AVRFramework/Experiences/Demospace/Maps/Streaming/Map_Demo_Menu.Map_Demo_Menu:PersistentLevel' has LevelScriptBlueprint '/Game/AVRFramework/Experiences/Demospace/Maps/Streaming/Map_Demo_Menu.Map_Demo_Menu:PersistentLevel.Map_Demo_Menu' with GeneratedClass '/Game/AVRFramework/Experiences/Demospace/Maps/Streaming/Map_Demo_Menu.Map_Demo_Menu_C' with ClassGeneratedBy '/Game/AVRFramework/Experiences/Demospace/Maps/Streaming/Map_Demo_Menu.Map_Demo_Menu:PersistentLevel.Map_Demo_Menu'
-[2020.03.05-02.32.36:547][166]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2020.03.05-02.32.36:547][166]PIE: New page: PIE session: Map_Demo_Menu (Mar 4, 2020, 10:32:36 AM)
-[2020.03.05-02.32.36:548][166]LogOnline: OSS: Creating online subsystem instance for: NULL
-[2020.03.05-02.32.36:550][166]LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
-[2020.03.05-02.32.36:550][166]LogPlayLevel: Creating play world package: /Game/AVRFramework/Experiences/Demospace/Maps/Streaming/UEDPIE_0_Map_Demo_Menu
-[2020.03.05-02.32.36:556][166]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005188s)
-[2020.03.05-02.32.36:556][166]LogAIModule: Creating AISystem for world Map_Demo_Menu
-[2020.03.05-02.32.36:556][166]LogPlayLevel: PIE: World Init took: (0.000831s)
-[2020.03.05-02.32.36:556][166]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/AVRFramework/Experiences/Demospace/Maps/Streaming/Map_Demo_Menu.Map_Demo_Menu to /Game/AVRFramework/Experiences/Demospace/Maps/Streaming/UEDPIE_0_Map_Demo_Menu.Map_Demo_Menu (0.006270s)
-[2020.03.05-02.32.36:591][166]LogUObjectHash: Compacting FUObjectHashTables data took   2.88ms
-[2020.03.05-02.32.36:594][166]LogAudioMixer: Display: Audio Mixer Platform Settings:
-[2020.03.05-02.32.36:595][166]LogAudioMixer: Display: 	Sample Rate:						  48000
-[2020.03.05-02.32.36:595][166]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
-[2020.03.05-02.32.36:595][166]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
-[2020.03.05-02.32.36:595][166]LogAudioMixer: Display: 	Number of buffers to queue:			  2
-[2020.03.05-02.32.36:595][166]LogAudioMixer: Display: 	Max Channels (voices):				  32
-[2020.03.05-02.32.36:595][166]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
-[2020.03.05-02.32.36:595][166]LogAudio: Display: AudioDevice MaxSources: 32
-[2020.03.05-02.32.36:595][166]LogAudio: Display: Using built-in audio occlusion.
-[2020.03.05-02.32.36:595][166]LogAudioMixer: Display: Initializing audio mixer.
-[2020.03.05-02.32.36:642][166]LogAudioMixer: Display: Audio Device Output Speaker Info:
-[2020.03.05-02.32.36:642][166]LogAudioMixer: Display: Name: Speakers (Realtek High Definition Audio)
-[2020.03.05-02.32.36:643][166]LogAudioMixer: Display: Is Default: Yes
-[2020.03.05-02.32.36:643][166]LogAudioMixer: Display: Sample Rate: 48000
-[2020.03.05-02.32.36:643][166]LogAudioMixer: Display: Channel Count Used: 2
-[2020.03.05-02.32.36:643][166]LogAudioMixer: Display: Device Channel Count: 2
-[2020.03.05-02.32.36:643][166]LogAudioMixer: Display: Channel Order:
-[2020.03.05-02.32.36:643][166]LogAudioMixer: Display: 0: FrontLeft
-[2020.03.05-02.32.36:643][166]LogAudioMixer: Display: 1: FrontRight
-[2020.03.05-02.32.36:674][166]LogAudioMixer: Display: Using Audio Device Speakers (Realtek High Definition Audio)
-[2020.03.05-02.32.36:676][166]LogInit: FAudioDevice initialized.
-[2020.03.05-02.32.36:687][166]LogLoad: Game class is 'BP_GameMode_Demo_C'
-[2020.03.05-02.32.36:689][166]LogWorld: Bringing World /Game/AVRFramework/Experiences/Demospace/Maps/Streaming/UEDPIE_0_Map_Demo_Menu.Map_Demo_Menu up for play (max tick rate 0) at 2020.03.04-18.32.36
-[2020.03.05-02.32.36:689][166]LogWorld: Bringing up level for play took: 0.001512
-[2020.03.05-02.32.36:689][166]LogOnline: OSS: Creating online subsystem instance for: :Context_1
-[2020.03.05-02.32.36:692][166]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0005 seconds. Added 20 classes and 0 folders.
-[2020.03.05-02.32.36:693][166]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
-[2020.03.05-02.32.36:693][166]LogGameState: Match State Changed from EnteringMap to WaitingToStart
-[2020.03.05-02.32.36:693][166]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
-[2020.03.05-02.32.36:697][166]LogSlate: New Slate User Created.  User Index 8, Is Virtual User: 1
-[2020.03.05-02.32.36:697][166]LogSlate: Slate User Registered.  User Index 8, Is Virtual User: 1
-[2020.03.05-02.32.36:763][166]LogLevel: Warning: Failed to find streaming level object associated with 'Map_Pause'
-[2020.03.05-02.32.36:763][166]LogGameState: Match State Changed from WaitingToStart to InProgress
-[2020.03.05-02.32.36:763][166]PIE: Play in editor start time for /Game/AVRFramework/Experiences/Demospace/Maps/Streaming/UEDPIE_0_Map_Demo_Menu -0.456
-[2020.03.05-02.32.36:763][166]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/AVRFramework/Experiences/Demospace/Maps/Streaming/Map_Demo_Menu.Map_Demo_Menu:PersistentLevel' has LevelScriptBlueprint '/Game/AVRFramework/Experiences/Demospace/Maps/Streaming/Map_Demo_Menu.Map_Demo_Menu:PersistentLevel.Map_Demo_Menu' with GeneratedClass '/Game/AVRFramework/Experiences/Demospace/Maps/Streaming/Map_Demo_Menu.Map_Demo_Menu_C' with ClassGeneratedBy '/Game/AVRFramework/Experiences/Demospace/Maps/Streaming/Map_Demo_Menu.Map_Demo_Menu:PersistentLevel.Map_Demo_Menu'
-[2020.03.05-02.32.36:764][166]LogLevelStreaming: Display: FStreamLevelAction::UpdateOperation() LevelName Map_Pause, bIsLevelValid 0
-[2020.03.05-02.32.40:745][491]LogAudioMixer: Display: No commands were queued while flushing the source manager.
-[2020.03.05-02.32.40:745][491]LogAudioMixer: Display: No commands were queued while flushing the source manager.
-[2020.03.05-02.32.40:745][491]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/AVRFramework/Experiences/Demospace/Maps/Streaming/Map_Demo_Menu.Map_Demo_Menu:PersistentLevel' has LevelScriptBlueprint '/Game/AVRFramework/Experiences/Demospace/Maps/Streaming/Map_Demo_Menu.Map_Demo_Menu:PersistentLevel.Map_Demo_Menu' with GeneratedClass '/Game/AVRFramework/Experiences/Demospace/Maps/Streaming/Map_Demo_Menu.Map_Demo_Menu_C' with ClassGeneratedBy '/Game/AVRFramework/Experiences/Demospace/Maps/Streaming/Map_Demo_Menu.Map_Demo_Menu:PersistentLevel.Map_Demo_Menu'
-[2020.03.05-02.32.40:746][491]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.03.05-02.32.40:746][491]LogWorld: BeginTearingDown for /Game/AVRFramework/Experiences/Demospace/Maps/Streaming/UEDPIE_0_Map_Demo_Menu
-[2020.03.05-02.32.40:746][491]LogAudioMixer: Display: No commands were queued while flushing the source manager.
-[2020.03.05-02.32.40:749][491]LogWorld: UWorld::CleanupWorld for Map_Demo_Menu, bSessionEnded=true, bCleanupResources=true
-[2020.03.05-02.32.40:751][491]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2020.03.05-02.32.40:764][491]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2020.03.05-02.32.40:764][491]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/AVRFramework/Experiences/Demospace/Maps/Streaming/Map_Demo_Menu.Map_Demo_Menu:PersistentLevel' has LevelScriptBlueprint '/Game/AVRFramework/Experiences/Demospace/Maps/Streaming/Map_Demo_Menu.Map_Demo_Menu:PersistentLevel.Map_Demo_Menu' with GeneratedClass '/Game/AVRFramework/Experiences/Demospace/Maps/Streaming/Map_Demo_Menu.Map_Demo_Menu_C' with ClassGeneratedBy '/Game/AVRFramework/Experiences/Demospace/Maps/Streaming/Map_Demo_Menu.Map_Demo_Menu:PersistentLevel.Map_Demo_Menu'
-[2020.03.05-02.32.40:774][491]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2020.03.05-02.32.40:809][491]LogAudioMixer: Display: No commands were queued while flushing the source manager.
-[2020.03.05-02.32.40:812][491]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.03.05-02.32.40:817][491]LogSlate: Slate User Unregistered.  User Index 8
-[2020.03.05-02.32.40:817][491]LogSlate: Slate User Destroyed.  User Index 8, Is Virtual User: 1
-[2020.03.05-02.32.40:821][491]LogUObjectHash: Compacting FUObjectHashTables data took   3.71ms
-[2020.03.05-02.32.40:847][492]LogPlayLevel: Display: Destroying online subsystem :Context_1
+[2020.03.10-19.08.34:154][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2020.03.10-19.08.34:154][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2020.03.10-19.08.34:154][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [D:/GitHub/Le-VR-Project/Saved/Config/Windows/Engine.ini]
+[2020.03.10-19.08.34:154][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2020.03.10-19.08.34:154][  0]LogConfig: Setting CVar [[r.CustomDepth:3]]
+[2020.03.10-19.08.34:154][  0]LogConfig: Setting CVar [[r.DefaultFeature.Bloom:1]]
+[2020.03.10-19.08.34:154][  0]LogConfig: Setting CVar [[r.DefaultFeature.AutoExposure:0]]
+[2020.03.10-19.08.34:154][  0]LogConfig: Setting CVar [[vr.InstancedStereo:1]]
+[2020.03.10-19.08.34:154][  0]LogConfig: Setting CVar [[r.ForwardShading:0]]
+[2020.03.10-19.08.34:154][  0]LogConfig: Setting CVar [[r.DefaultFeature.MotionBlur:0]]
+[2020.03.10-19.08.34:154][  0]LogConfig: Setting CVar [[r.CustomDepthTemporalAAJitter:1]]
+[2020.03.10-19.08.34:154][  0]LogConfig: Setting CVar [[r.MobileMSAA:1]]
+[2020.03.10-19.08.34:154][  0]LogConfig: Setting CVar [[r.TextureStreaming:0]]
+[2020.03.10-19.08.34:154][  0]LogConfig: Setting CVar [[r.DefaultFeature.AmbientOcclusion:1]]
+[2020.03.10-19.08.34:154][  0]LogConfig: Setting CVar [[r.DefaultFeature.AmbientOcclusionStaticFraction:1]]
+[2020.03.10-19.08.34:154][  0]LogConfig: Setting CVar [[r.ReflectionCaptureResolution:256]]
+[2020.03.10-19.08.34:154][  0]LogConfig: Setting CVar [[r.DefaultFeature.AutoExposure.Method:0]]
+[2020.03.10-19.08.34:154][  0]LogConfig: Setting CVar [[r.AllowGlobalClipPlane:0]]
+[2020.03.10-19.08.34:154][  0]LogConfig: Setting CVar [[r.NormalMapsForStaticLighting:1]]
+[2020.03.10-19.08.34:154][  0]LogConfig: Setting CVar [[r.DefaultFeature.AntiAliasing:2]]
+[2020.03.10-19.08.34:154][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [D:/GitHub/Le-VR-Project/Saved/Config/Windows/Engine.ini]
+[2020.03.10-19.08.34:154][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [D:/GitHub/Le-VR-Project/Saved/Config/Windows/Engine.ini]
+[2020.03.10-19.08.34:154][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2020.03.10-19.08.34:154][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2020.03.10-19.08.34:154][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2020.03.10-19.08.34:154][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2020.03.10-19.08.34:154][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2020.03.10-19.08.34:154][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2020.03.10-19.08.34:154][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2020.03.10-19.08.34:154][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2020.03.10-19.08.34:154][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2020.03.10-19.08.34:154][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2020.03.10-19.08.34:154][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2020.03.10-19.08.34:154][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2020.03.10-19.08.34:154][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2020.03.10-19.08.34:154][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+[2020.03.10-19.08.34:154][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [D:/GitHub/Le-VR-Project/Saved/Config/Windows/Engine.ini]
+[2020.03.10-19.08.34:154][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2020.03.10-19.08.34:154][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2020.03.10-19.08.34:154][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2020.03.10-19.08.34:154][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2020.03.10-19.08.34:154][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2020.03.10-19.08.34:154][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2020.03.10-19.08.34:154][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
+[2020.03.10-19.08.34:154][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2020.03.10-19.08.34:155][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2020.03.10-19.08.34:155][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2020.03.10-19.08.34:155][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2020.03.10-19.08.34:155][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2020.03.10-19.08.34:155][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2020.03.10-19.08.34:155][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [D:/GitHub/Le-VR-Project/Saved/Config/Windows/Engine.ini]
+[2020.03.10-19.08.34:155][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [D:/GitHub/Le-VR-Project/Saved/Config/Windows/Engine.ini]
+[2020.03.10-19.08.34:159][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [D:/GitHub/Le-VR-Project/Saved/Config/Windows/Scalability.ini]
+[2020.03.10-19.08.34:159][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.03.10-19.08.34:159][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.03.10-19.08.34:159][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [D:/GitHub/Le-VR-Project/Saved/Config/Windows/Scalability.ini]
+[2020.03.10-19.08.34:159][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2020.03.10-19.08.34:159][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [D:/GitHub/Le-VR-Project/Saved/Config/Windows/Scalability.ini]
+[2020.03.10-19.08.34:159][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.03.10-19.08.34:159][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.03.10-19.08.34:159][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.03.10-19.08.34:159][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2020.03.10-19.08.34:159][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.03.10-19.08.34:159][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2020.03.10-19.08.34:159][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.03.10-19.08.34:159][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.03.10-19.08.34:159][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.03.10-19.08.34:159][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.03.10-19.08.34:159][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.03.10-19.08.34:159][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.03.10-19.08.34:159][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.03.10-19.08.34:159][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2020.03.10-19.08.34:159][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.03.10-19.08.34:159][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.03.10-19.08.34:159][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.03.10-19.08.34:159][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.03.10-19.08.34:159][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [D:/GitHub/Le-VR-Project/Saved/Config/Windows/Scalability.ini]
+[2020.03.10-19.08.34:159][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2020.03.10-19.08.34:159][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.03.10-19.08.34:159][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.03.10-19.08.34:159][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.03.10-19.08.34:159][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.03.10-19.08.34:159][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2020.03.10-19.08.34:159][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.03.10-19.08.34:159][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2020.03.10-19.08.34:159][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.03.10-19.08.34:159][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.03.10-19.08.34:159][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.03.10-19.08.34:159][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2020.03.10-19.08.34:159][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.03.10-19.08.34:159][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.03.10-19.08.34:159][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.03.10-19.08.34:159][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.03.10-19.08.34:159][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.03.10-19.08.34:159][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.03.10-19.08.34:159][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.03.10-19.08.34:159][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.03.10-19.08.34:159][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.03.10-19.08.34:159][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.03.10-19.08.34:159][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2020.03.10-19.08.34:159][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2020.03.10-19.08.34:159][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2020.03.10-19.08.34:159][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2020.03.10-19.08.34:159][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2020.03.10-19.08.34:159][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.03.10-19.08.34:159][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.03.10-19.08.34:159][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.03.10-19.08.34:159][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [D:/GitHub/Le-VR-Project/Saved/Config/Windows/Scalability.ini]
+[2020.03.10-19.08.34:159][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.03.10-19.08.34:159][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.03.10-19.08.34:159][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.03.10-19.08.34:159][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.03.10-19.08.34:159][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.03.10-19.08.34:159][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2020.03.10-19.08.34:159][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.03.10-19.08.34:159][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2020.03.10-19.08.34:159][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.03.10-19.08.34:159][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [D:/GitHub/Le-VR-Project/Saved/Config/Windows/Scalability.ini]
+[2020.03.10-19.08.34:159][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.03.10-19.08.34:159][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.03.10-19.08.34:159][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2020.03.10-19.08.34:159][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2020.03.10-19.08.34:159][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.03.10-19.08.34:159][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.03.10-19.08.34:159][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.03.10-19.08.34:159][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.03.10-19.08.34:159][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.03.10-19.08.34:159][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.03.10-19.08.34:159][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.03.10-19.08.34:159][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2020.03.10-19.08.34:159][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2020.03.10-19.08.34:159][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.03.10-19.08.34:159][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.03.10-19.08.34:160][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2020.03.10-19.08.34:160][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2020.03.10-19.08.34:160][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2020.03.10-19.08.34:160][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2020.03.10-19.08.34:160][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2020.03.10-19.08.34:160][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2020.03.10-19.08.34:160][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2020.03.10-19.08.34:160][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2020.03.10-19.08.34:160][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2020.03.10-19.08.34:160][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2020.03.10-19.08.34:160][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2020.03.10-19.08.34:160][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [D:/GitHub/Le-VR-Project/Saved/Config/Windows/Scalability.ini]
+[2020.03.10-19.08.34:160][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.03.10-19.08.34:160][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.03.10-19.08.34:160][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [D:/GitHub/Le-VR-Project/Saved/Config/Windows/Scalability.ini]
+[2020.03.10-19.08.34:160][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2020.03.10-19.08.34:160][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2020.03.10-19.08.34:160][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2020.03.10-19.08.34:160][  0]LogInit: Selected Device Profile: [Windows]
+[2020.03.10-19.08.34:160][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2020.03.10-19.08.34:188][  0]LogHAL: Display: Platform has ~ 16 GB [16981479424 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2020.03.10-19.08.34:188][  0]LogInit: Going up to parent DeviceProfile []
+[2020.03.10-19.08.34:188][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [D:/GitHub/Le-VR-Project/Saved/Config/Windows/Scalability.ini]
+[2020.03.10-19.08.34:188][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.03.10-19.08.34:188][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.03.10-19.08.34:188][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [D:/GitHub/Le-VR-Project/Saved/Config/Windows/Scalability.ini]
+[2020.03.10-19.08.34:188][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2020.03.10-19.08.34:188][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [D:/GitHub/Le-VR-Project/Saved/Config/Windows/Scalability.ini]
+[2020.03.10-19.08.34:188][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.03.10-19.08.34:188][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.03.10-19.08.34:188][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.03.10-19.08.34:188][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2020.03.10-19.08.34:188][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.03.10-19.08.34:188][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2020.03.10-19.08.34:188][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.03.10-19.08.34:188][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.03.10-19.08.34:188][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.03.10-19.08.34:188][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.03.10-19.08.34:189][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.03.10-19.08.34:189][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.03.10-19.08.34:189][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.03.10-19.08.34:189][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2020.03.10-19.08.34:189][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.03.10-19.08.34:189][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.03.10-19.08.34:189][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.03.10-19.08.34:189][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.03.10-19.08.34:189][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [D:/GitHub/Le-VR-Project/Saved/Config/Windows/Scalability.ini]
+[2020.03.10-19.08.34:189][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2020.03.10-19.08.34:189][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.03.10-19.08.34:189][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.03.10-19.08.34:189][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.03.10-19.08.34:189][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.03.10-19.08.34:189][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2020.03.10-19.08.34:189][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.03.10-19.08.34:189][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2020.03.10-19.08.34:189][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.03.10-19.08.34:189][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.03.10-19.08.34:189][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.03.10-19.08.34:189][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2020.03.10-19.08.34:189][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.03.10-19.08.34:189][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.03.10-19.08.34:189][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.03.10-19.08.34:189][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.03.10-19.08.34:189][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.03.10-19.08.34:189][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.03.10-19.08.34:189][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.03.10-19.08.34:189][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.03.10-19.08.34:189][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.03.10-19.08.34:189][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.03.10-19.08.34:189][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2020.03.10-19.08.34:189][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2020.03.10-19.08.34:189][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2020.03.10-19.08.34:189][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2020.03.10-19.08.34:189][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2020.03.10-19.08.34:189][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.03.10-19.08.34:189][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.03.10-19.08.34:189][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.03.10-19.08.34:189][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [D:/GitHub/Le-VR-Project/Saved/Config/Windows/Scalability.ini]
+[2020.03.10-19.08.34:189][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.03.10-19.08.34:189][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.03.10-19.08.34:189][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.03.10-19.08.34:189][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.03.10-19.08.34:189][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.03.10-19.08.34:189][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2020.03.10-19.08.34:189][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.03.10-19.08.34:189][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2020.03.10-19.08.34:189][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.03.10-19.08.34:189][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [D:/GitHub/Le-VR-Project/Saved/Config/Windows/Scalability.ini]
+[2020.03.10-19.08.34:189][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.03.10-19.08.34:189][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.03.10-19.08.34:189][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2020.03.10-19.08.34:189][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2020.03.10-19.08.34:189][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.03.10-19.08.34:189][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.03.10-19.08.34:189][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.03.10-19.08.34:189][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.03.10-19.08.34:189][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.03.10-19.08.34:189][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.03.10-19.08.34:189][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.03.10-19.08.34:189][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2020.03.10-19.08.34:189][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2020.03.10-19.08.34:189][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.03.10-19.08.34:189][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.03.10-19.08.34:189][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2020.03.10-19.08.34:189][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2020.03.10-19.08.34:189][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2020.03.10-19.08.34:189][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2020.03.10-19.08.34:189][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2020.03.10-19.08.34:189][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2020.03.10-19.08.34:189][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2020.03.10-19.08.34:189][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2020.03.10-19.08.34:189][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2020.03.10-19.08.34:189][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2020.03.10-19.08.34:189][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2020.03.10-19.08.34:189][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [D:/GitHub/Le-VR-Project/Saved/Config/Windows/Scalability.ini]
+[2020.03.10-19.08.34:189][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.03.10-19.08.34:189][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.03.10-19.08.34:189][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [D:/GitHub/Le-VR-Project/Saved/Config/Windows/Scalability.ini]
+[2020.03.10-19.08.34:189][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2020.03.10-19.08.34:189][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2020.03.10-19.08.34:189][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2020.03.10-19.08.34:189][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2020.03.10-19.08.34:204][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2020.03.10-19.08.34:204][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2020.03.10-19.08.34:204][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [D:/GitHub/Le-VR-Project/Saved/Config/Windows/Engine.ini]
+[2020.03.10-19.08.34:204][  0]LogInit: Computer: XENOSEMPIRE
+[2020.03.10-19.08.34:204][  0]LogInit: User: Ralphy
+[2020.03.10-19.08.34:204][  0]LogInit: CPU Page size=4096, Cores=4
+[2020.03.10-19.08.34:204][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2020.03.10-19.08.34:204][  0]LogMemory: Memory total: Physical=15.8GB (16GB approx)
+[2020.03.10-19.08.34:204][  0]LogMemory: Platform Memory Stats for Windows
+[2020.03.10-19.08.34:204][  0]LogMemory: Process Physical Memory: 108.28 MB used, 108.28 MB peak
+[2020.03.10-19.08.34:204][  0]LogMemory: Process Virtual Memory: 103.48 MB used, 103.48 MB peak
+[2020.03.10-19.08.34:204][  0]LogMemory: Physical Memory: 8628.38 MB used,  7566.42 MB free, 16194.80 MB total
+[2020.03.10-19.08.34:204][  0]LogMemory: Virtual Memory: 5162.49 MB used,  134212568.00 MB free, 134217728.00 MB total
+[2020.03.10-19.08.34:213][  0]LogWindows: WindowsPlatformFeatures enabled
+[2020.03.10-19.08.35:545][  0]LogInit: Using OS detected language (en-US).
+[2020.03.10-19.08.35:545][  0]LogInit: Using OS detected locale (en-US).
+[2020.03.10-19.08.35:620][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2020.03.10-19.08.36:569][  0]LogInit: Setting process to per monitor DPI aware
+[2020.03.10-19.08.37:149][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2020.03.10-19.08.37:149][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2020.03.10-19.08.42:411][  0]LogHMD: Failed to initialize OpenVR with code 126
+[2020.03.10-19.08.42:411][  0]LogD3D11RHI: D3D11 min allowed feature level: 11_0
+[2020.03.10-19.08.42:411][  0]LogD3D11RHI: D3D11 max allowed feature level: 11_0
+[2020.03.10-19.08.42:411][  0]LogD3D11RHI: D3D11 adapters:
+[2020.03.10-19.08.42:497][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1660 Ti' (Feature Level 11_0)
+[2020.03.10-19.08.42:497][  0]LogD3D11RHI:       5991/0/8097 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2020.03.10-19.08.42:506][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 4600' (Feature Level 11_0)
+[2020.03.10-19.08.42:507][  0]LogD3D11RHI:       112/0/2048 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x8086
+[2020.03.10-19.08.42:509][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2020.03.10-19.08.42:509][  0]LogD3D11RHI:       0/0/8097 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2020.03.10-19.08.42:509][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2020.03.10-19.08.42:518][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2020.03.10-19.08.42:519][  0]LogD3D11RHI:     GPU DeviceId: 0x2182 (for the marketing name, search the web for "GPU Device Id")
+[2020.03.10-19.08.42:519][  0]LogWindows: EnumDisplayDevices:
+[2020.03.10-19.08.42:519][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1660 Ti' (P:1 D:1)
+[2020.03.10-19.08.42:520][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1660 Ti' (P:0 D:0)
+[2020.03.10-19.08.42:520][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1660 Ti' (P:0 D:0)
+[2020.03.10-19.08.42:521][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1660 Ti' (P:0 D:0)
+[2020.03.10-19.08.42:521][  0]LogWindows:    4. 'Intel(R) HD Graphics 4600' (P:0 D:1)
+[2020.03.10-19.08.42:521][  0]LogWindows:    5. 'Intel(R) HD Graphics 4600' (P:0 D:0)
+[2020.03.10-19.08.42:521][  0]LogWindows:    6. 'Intel(R) HD Graphics 4600' (P:0 D:0)
+[2020.03.10-19.08.42:522][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
+[2020.03.10-19.08.42:522][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1660 Ti
+[2020.03.10-19.08.42:522][  0]LogD3D11RHI:   Driver Version: 442.50 (internal:26.21.14.4250, unified:442.50)
+[2020.03.10-19.08.42:522][  0]LogD3D11RHI:      Driver Date: 2-24-2020
+[2020.03.10-19.08.42:522][  0]LogRHI: Texture pool is 4193 MB (70% of 5991 MB)
+[2020.03.10-19.08.42:582][  0]LogD3D11RHI: RHI has support for 64 bit atomics
+[2020.03.10-19.08.42:582][  0]LogD3D11RHI: Async texture creation enabled
+[2020.03.10-19.08.42:614][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2020.03.10-19.08.45:197][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AllDesktop'
+[2020.03.10-19.08.45:346][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
+[2020.03.10-19.08.45:346][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
+[2020.03.10-19.08.45:346][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ATC'
+[2020.03.10-19.08.45:346][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
+[2020.03.10-19.08.45:346][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1'
+[2020.03.10-19.08.45:346][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1a'
+[2020.03.10-19.08.45:346][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
+[2020.03.10-19.08.45:346][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_PVRTC'
+[2020.03.10-19.08.45:346][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
+[2020.03.10-19.08.45:346][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
+[2020.03.10-19.08.45:346][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ATCClient'
+[2020.03.10-19.08.45:346][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
+[2020.03.10-19.08.45:346][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1Client'
+[2020.03.10-19.08.45:346][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1aClient'
+[2020.03.10-19.08.45:346][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
+[2020.03.10-19.08.45:346][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_PVRTCClient'
+[2020.03.10-19.08.45:346][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
+[2020.03.10-19.08.45:346][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
+[2020.03.10-19.08.45:729][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
+[2020.03.10-19.08.45:729][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
+[2020.03.10-19.08.45:778][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxNoEditor'
+[2020.03.10-19.08.45:887][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
+[2020.03.10-19.08.45:947][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
+[2020.03.10-19.08.45:997][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64NoEditor'
+[2020.03.10-19.08.46:048][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Client'
+[2020.03.10-19.08.46:128][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Server'
+[2020.03.10-19.08.46:230][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Lumin'
+[2020.03.10-19.08.46:230][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LuminClient'
+[2020.03.10-19.08.46:311][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
+[2020.03.10-19.08.46:311][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
+[2020.03.10-19.08.46:372][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
+[2020.03.10-19.08.46:472][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
+[2020.03.10-19.08.46:528][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
+[2020.03.10-19.08.46:565][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
+[2020.03.10-19.08.46:565][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2020.03.10-19.08.47:210][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2020.03.10-19.08.50:494][  0]LogShaderCompilers: Guid format shader working directory is -15 characters bigger than the processId version (../../../../../GitHub/Le-VR-Project/Intermediate/Shaders/WorkingDirectory/5076/).
+[2020.03.10-19.08.50:494][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'D:/Temp/UnrealShaderWorkingDir/C3E6666B4D34EB5B4A2D199F4FA52D0E/'.
+[2020.03.10-19.08.50:494][  0]LogXGEController: Cleaning working directory: D:/Temp/UnrealXGEWorkingDir/
+[2020.03.10-19.08.50:495][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2020.03.10-19.08.50:495][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2020.03.10-19.08.50:495][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2020.03.10-19.09.12:613][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2020.03.10-19.09.13:574][  0]LogDerivedDataCache: Loaded boot cache 0.96s 124MB C:/Users/Ralphy/AppData/Local/UnrealEngine/4.24/DerivedDataCache/Boot.ddc.
+[2020.03.10-19.09.13:574][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Ralphy/AppData/Local/UnrealEngine/4.24/DerivedDataCache/Boot.ddc
+[2020.03.10-19.09.13:574][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../GitHub/Le-VR-Project/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2020.03.10-19.09.13:574][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2020.03.10-19.09.13:574][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../GitHub/Le-VR-Project/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.03.10-19.09.13:574][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2020.03.10-19.09.13:963][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2020.03.10-19.09.13:963][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.03.10-19.09.13:963][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2020.03.10-19.09.13:966][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Ralphy/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2020.03.10-19.09.13:966][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2020.03.10-19.09.13:969][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2020.03.10-19.09.14:531][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2020.03.10-19.09.15:959][  0]LogSlate: Using FreeType 2.10.0
+[2020.03.10-19.09.17:099][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2020.03.10-19.09.26:512][  0]LogAssetRegistry: FAssetRegistry took 0.0077 seconds to start up
+[2020.03.10-19.09.58:517][  0]LogInit: Selected Device Profile: [Windows]
+[2020.03.10-19.10.11:607][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2020.03.10-19.10.11:607][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2020.03.10-19.10.11:607][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2020.03.10-19.10.11:607][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2020.03.10-19.10.11:607][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2020.03.10-19.10.14:117][  0]LogNetVersion: AdvancedVRFrameworkV22 1.0.0, NetCL: 10570792, EngineNetVer: 13, GameNetVer: 0 (Checksum: 3434068971)
+[2020.03.10-19.11.55:798][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 1 prioritized culture(s) in 0.269993 seconds
+[2020.03.10-19.11.55:842][  0]LogUObjectArray: 46750 objects as part of root set at end of initial load.
+[2020.03.10-19.11.55:842][  0]LogUObjectAllocator: 8137160 out of 0 bytes used by permanent object pool.
+[2020.03.10-19.11.55:842][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2020.03.10-19.12.23:180][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2020.03.10-19.12.23:540][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2020.03.10-19.12.27:541][  0]LogLinker: Warning: Asset '../../Plugins/Runtime/WebBrowserWidget/Content/WebTexture_M.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2020.03.10-19.12.27:558][  0]LogLinker: Warning: Asset '../../Plugins/Runtime/WebBrowserWidget/Content/WebTexture_T.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2020.03.10-19.12.27:664][  0]LogLinker: Warning: Asset '../../Plugins/Runtime/WebBrowserWidget/Content/WebTexture_TM.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2020.03.10-19.12.45:656][  0]SourceControl: Source control is disabled
+[2020.03.10-19.12.45:757][  0]SourceControl: Source control is disabled
+[2020.03.10-19.12.46:650][  0]SourceControl: Source control is disabled
+[2020.03.10-19.12.47:044][  0]SourceControl: Source control is disabled
+[2020.03.10-19.12.47:313][  0]SourceControl: Source control is disabled
+[2020.03.10-19.12.56:267][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2020.03.10-19.12.57:773][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2020.03.10-19.12.57:773][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2020.03.10-19.13.02:103][  0]LogOcInput: OculusInput pre-init called
+[2020.03.10-19.13.10:347][  0]LogAutomationTest: Warning: Smoke tests took > 2s to run: 2.74s
+[2020.03.10-19.13.10:888][  0]LogEngine: Initializing Engine...
+[2020.03.10-19.13.11:161][  0]LogHMD: Failed to initialize OpenVR with code 126
+[2020.03.10-19.13.11:596][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.308 s
+[2020.03.10-19.13.13:798][  0]LogInit: Initializing FReadOnlyCVARCache
+[2020.03.10-19.13.17:421][  0]LogAIModule: Creating AISystem for world Untitled
+[2020.03.10-19.13.18:438][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.03.10-19.13.18:438][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.03.10-19.13.18:438][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.03.10-19.13.18:438][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.03.10-19.13.18:438][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.03.10-19.13.18:438][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.03.10-19.13.18:438][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.03.10-19.13.18:438][  0]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.03.10-19.13.18:487][  0]LogAudio: Display: Using built-in audio occlusion.
+[2020.03.10-19.13.18:506][  0]LogAudioMixer: Display: Initializing audio mixer.
+[2020.03.10-19.13.18:818][  0]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.03.10-19.13.18:818][  0]LogAudioMixer: Display: Name: Speakers (Realtek High Definition Audio)
+[2020.03.10-19.13.18:818][  0]LogAudioMixer: Display: Is Default: Yes
+[2020.03.10-19.13.18:818][  0]LogAudioMixer: Display: Sample Rate: 48000
+[2020.03.10-19.13.18:818][  0]LogAudioMixer: Display: Channel Count Used: 2
+[2020.03.10-19.13.18:818][  0]LogAudioMixer: Display: Device Channel Count: 2
+[2020.03.10-19.13.18:818][  0]LogAudioMixer: Display: Channel Order:
+[2020.03.10-19.13.18:818][  0]LogAudioMixer: Display: 0: FrontLeft
+[2020.03.10-19.13.18:818][  0]LogAudioMixer: Display: 1: FrontRight
+[2020.03.10-19.13.18:873][  0]LogAudioMixer: Display: Using Audio Device Speakers (Realtek High Definition Audio)
+[2020.03.10-19.13.19:112][  0]LogInit: FAudioDevice initialized.
+[2020.03.10-19.13.19:136][  0]LogNetVersion: Set ProjectVersion to 2.0. Version Checksum will be recalculated on next use.
+[2020.03.10-19.13.19:361][  0]LogDerivedDataCache: Saved boot cache 0.23s 124MB C:/Users/Ralphy/AppData/Local/UnrealEngine/4.24/DerivedDataCache/Boot.ddc.
+[2020.03.10-19.13.19:369][  0]LogInit: Texture streaming: Disabled
+[2020.03.10-19.13.20:758][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2020.03.10-19.13.20:758][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
+[2020.03.10-19.13.20:768][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
+[2020.03.10-19.13.22:233][  0]LogInit: Transaction tracking system initialized
+[2020.03.10-19.13.25:121][  0]BlueprintLog: New page: Editor Load
+[2020.03.10-19.13.33:000][  0]LocalizationService: Localization service is disabled
+[2020.03.10-19.13.44:083][  0]LogFileCache: Scanning file cache for directory 'D:/GitHub/Le-VR-Project/Content/' took 0.18s
+[2020.03.10-19.13.44:083][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2020.03.10-19.13.44:083][  0]LogCook: Display: Mobile HDR setting 1
+[2020.03.10-19.14.04:064][  0]SourceControl: Source control is disabled
+[2020.03.10-19.14.04:192][  0]Cmd: MAP LOAD FILE="../../../../../GitHub/Le-VR-Project/Content/AVRFramework/Experiences/Demospace/Maps/Streaming/Map_Demo_Menu.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.03.10-19.14.04:637][  0]LightingResults: New page: Lighting Build
+[2020.03.10-19.14.05:301][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2020.03.10-19.14.05:379][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.03.10-19.14.05:433][  0]MapCheck: New page: Map Check
+[2020.03.10-19.14.05:433][  0]LightingResults: New page: Lighting Build
+[2020.03.10-19.14.06:418][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.74ms
+[2020.03.10-19.14.18:953][  0]LogBlueprint: Warning: [Compiler BP_Pawn_VR] GetInputAxisKey Value specifies FKey'MotionController_Left_Thumbstick_X' which has been deprecated for  Get MotionController (L) Thumbstick X
+[2020.03.10-19.14.18:953][  0]LogBlueprint: Warning: [Compiler BP_Pawn_VR] GetInputAxisKey Value specifies FKey'MotionController_Right_Thumbstick_X' which has been deprecated for  Get MotionController (R) Thumbstick X
+[2020.03.10-19.14.18:954][  0]LogBlueprint: Warning: [Compiler BP_Pawn_VR] GetInputAxisKey Value specifies FKey'MotionController_Left_Thumbstick_Y' which has been deprecated for  Get MotionController (L) Thumbstick Y
+[2020.03.10-19.14.18:954][  0]LogBlueprint: Warning: [Compiler BP_Pawn_VR] GetInputAxisKey Value specifies FKey'MotionController_Right_Thumbstick_Y' which has been deprecated for  Get MotionController (R) Thumbstick Y
+[2020.03.10-19.14.18:954][  0]LogBlueprint: Warning: [Compiler BP_Pawn_VR] InputAxisKey Event specifies FKey'MotionController_Right_TriggerAxis' which has been deprecated for  MotionController (R) TriggerAxis
+[2020.03.10-19.14.18:955][  0]LogBlueprint: Warning: [Compiler BP_Pawn_VR] InputAxisKey Event specifies FKey'MotionController_Left_TriggerAxis' which has been deprecated for  MotionController (L) TriggerAxis
+[2020.03.10-19.14.18:956][  0]LogBlueprint: Warning: [Compiler BP_Pawn_VR] InputKey Event specifies FKey'MotionController_Right_Thumbstick' which has been deprecated for  MotionController (R) Thumbstick
+[2020.03.10-19.14.18:956][  0]LogBlueprint: Warning: [Compiler BP_Pawn_VR] InputAxisKey Event specifies FKey'MotionController_Right_Grip1Axis' which has been deprecated for  MotionController (R) Grip1 Axis
+[2020.03.10-19.14.18:956][  0]LogBlueprint: Warning: [Compiler BP_Pawn_VR] InputAxisKey Event specifies FKey'OculusTouch_Right_ThumbUp' that is not blueprint bindable for  Oculus Touch (R) Thumb Up CapTouch
+[2020.03.10-19.14.18:956][  0]LogBlueprint: Warning: [Compiler BP_Pawn_VR] InputAxisKey Event specifies FKey'OculusTouch_Right_IndexPointing' that is not blueprint bindable for  Oculus Touch (R) Pointing CapTouch
+[2020.03.10-19.14.18:956][  0]LogBlueprint: Warning: [Compiler BP_Pawn_VR] InputAxisKey Event specifies FKey'MotionController_Left_Grip1Axis' which has been deprecated for  MotionController (L) Grip1 Axis
+[2020.03.10-19.14.18:956][  0]LogBlueprint: Warning: [Compiler BP_Pawn_VR] InputAxisKey Event specifies FKey'OculusTouch_Left_ThumbUp' that is not blueprint bindable for  Oculus Touch (L) Thumb Up CapTouch
+[2020.03.10-19.14.18:956][  0]LogBlueprint: Warning: [Compiler BP_Pawn_VR] InputAxisKey Event specifies FKey'OculusTouch_Left_IndexPointing' that is not blueprint bindable for  Oculus Touch (L) Pointing CapTouch
+[2020.03.10-19.14.18:957][  0]LogBlueprint: Warning: [Compiler BP_Pawn_VR] InputKey Event specifies FKey'MotionController_Right_FaceButton4' which has been deprecated for  MotionController (R) FaceButton4
+[2020.03.10-19.14.18:957][  0]LogBlueprint: Warning: [Compiler BP_Pawn_VR] InputKey Event specifies FKey'MotionController_Left_FaceButton4' which has been deprecated for  MotionController (L) FaceButton4
+[2020.03.10-19.14.18:957][  0]LogBlueprint: Warning: [Compiler BP_Pawn_VR] InputKey Event specifies FKey'MotionController_Right_FaceButton2' which has been deprecated for  MotionController (R) FaceButton2
+[2020.03.10-19.14.18:957][  0]LogBlueprint: Warning: [Compiler BP_Pawn_VR] InputKey Event specifies FKey'MotionController_Left_FaceButton2' which has been deprecated for  MotionController (L) FaceButton2
+[2020.03.10-19.14.18:957][  0]LogBlueprint: Warning: [Compiler BP_Pawn_VR] InputKey Event specifies FKey'MotionController_Left_FaceButton1' which has been deprecated for  MotionController (L) FaceButton1
+[2020.03.10-19.14.18:957][  0]LogBlueprint: Warning: [Compiler BP_Pawn_VR] InputKey Event specifies FKey'MotionController_Right_FaceButton3' which has been deprecated for  MotionController (R) FaceButton3
+[2020.03.10-19.14.18:957][  0]LogBlueprint: Warning: [Compiler BP_Pawn_VR] InputKey Event specifies FKey'MotionController_Left_FaceButton3' which has been deprecated for  MotionController (L) FaceButton3
+[2020.03.10-19.14.18:957][  0]LogBlueprint: Warning: [Compiler BP_Pawn_VR] InputKey Event specifies FKey'MotionController_Right_FaceButton1' which has been deprecated for  MotionController (R) FaceButton1
+[2020.03.10-19.14.18:957][  0]LogBlueprint: Warning: [Compiler BP_Pawn_VR] InputKey Event specifies FKey'MotionController_Left_Trigger' which has been deprecated for  MotionController (L) Trigger
+[2020.03.10-19.14.18:957][  0]LogBlueprint: Warning: [Compiler BP_Pawn_VR] InputKey Event specifies FKey'MotionController_Right_Trigger' which has been deprecated for  MotionController (R) Trigger
+[2020.03.10-19.14.18:957][  0]LogBlueprint: Warning: [Compiler BP_Pawn_VR] InputKey Event specifies FKey'MotionController_Right_Grip1' which has been deprecated for  MotionController (R) Grip1
+[2020.03.10-19.14.18:957][  0]LogBlueprint: Warning: [Compiler BP_Pawn_VR] InputKey Event specifies FKey'MotionController_Left_Grip1' which has been deprecated for  MotionController (L) Grip1
+[2020.03.10-19.14.18:957][  0]LogBlueprint: Warning: [Compiler BP_Pawn_VR] InputKey Event specifies FKey'MotionController_Right_Shoulder' which has been deprecated for  MotionController (R) Shoulder
+[2020.03.10-19.14.18:957][  0]LogBlueprint: Warning: [Compiler BP_Pawn_VR] InputKey Event specifies FKey'MotionController_Left_Shoulder' which has been deprecated for  MotionController (L) Shoulder
+[2020.03.10-19.14.18:957][  0]LogBlueprint: Warning: [Compiler BP_Pawn_VR] InputKey Event specifies FKey'MotionController_Left_Thumbstick' which has been deprecated for  MotionController (L) Thumbstick
+[2020.03.10-19.14.18:957][  0]LogBlueprint: Warning: [Compiler BP_Pawn_VR] GetInputAxisKey Value specifies FKey'MotionController_Right_Thumbstick_X' which has been deprecated for  Get MotionController (R) Thumbstick X
+[2020.03.10-19.14.18:957][  0]LogBlueprint: Warning: [Compiler BP_Pawn_VR] GetInputAxisKey Value specifies FKey'MotionController_Right_Thumbstick_Y' which has been deprecated for  Get MotionController (R) Thumbstick Y
+[2020.03.10-19.14.18:957][  0]LogBlueprint: Warning: [Compiler BP_Pawn_VR] GetInputAxisKey Value specifies FKey'MotionController_Left_Thumbstick_X' which has been deprecated for  Get MotionController (L) Thumbstick X
+[2020.03.10-19.14.18:957][  0]LogBlueprint: Warning: [Compiler BP_Pawn_VR] GetInputAxisKey Value specifies FKey'MotionController_Left_Thumbstick_Y' which has been deprecated for  Get MotionController (L) Thumbstick Y
+[2020.03.10-19.14.45:828][  0]LogAIModule: Creating AISystem for world Map_Demo_Menu
+[2020.03.10-19.14.47:404][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.03.10-19.14.47:916][  0]LogUObjectHash: Compacting FUObjectHashTables data took  10.03ms
+[2020.03.10-19.14.47:953][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.03.10-19.14.47:975][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 15.688ms to complete.
+[2020.03.10-19.14.47:984][  0]LogFileHelpers: Loading map 'Map_Demo_Menu' took 43.863
+[2020.03.10-19.14.51:240][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.03.10-19.14.51:248][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.03.10-19.14.51:254][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.03.10-19.14.51:262][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.03.10-19.14.51:430][  0]LogCollectionManager: Loaded 0 collections in 0.015910 seconds
+[2020.03.10-19.14.51:616][  0]LogFileCache: Scanning file cache for directory 'D:/GitHub/Le-VR-Project/Saved/Collections/' took 0.00s
+[2020.03.10-19.14.51:616][  0]LogFileCache: Scanning file cache for directory 'D:/GitHub/Le-VR-Project/Content/Developers/Ralphy/Collections/' took 0.00s
+[2020.03.10-19.14.51:616][  0]LogFileCache: Scanning file cache for directory 'D:/GitHub/Le-VR-Project/Content/Collections/' took 0.00s
+[2020.03.10-19.14.51:616][  0]LogContentBrowser: Native class hierarchy populated in 0.0087 seconds. Added 3031 classes and 733 folders.
+[2020.03.10-19.14.51:847][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2020.03.10-19.14.53:532][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2020.03.10-19.14.55:050][  0]LogSlate: Took 0.027024 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2020.03.10-19.14.55:096][  0]LogSlate: Took 0.032343 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2020.03.10-19.14.55:199][  0]LogSlate: Took 0.026853 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2020.03.10-19.14.56:253][  0]LogRenderer: Reallocating scene render targets to support 1292x576 Format 10 NumSamples 1 (Frame:1).
+[2020.03.10-19.14.57:456][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2020.03.10-19.14.57:456][  0]LogLoad: (Engine Initialization) Total time: 447.73 seconds
+[2020.03.10-19.14.57:456][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2020.03.10-19.14.58:094][  0]LogSlate: Took 0.029584 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.03.10-19.15.00:518][ 24]LogSlate: Took 0.000184 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.03.10-19.15.01:287][ 34]LogAssetRegistry: Asset discovery search completed in 334.7769 seconds
+[2020.03.10-19.15.01:322][ 34]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000022 seconds (updated 0 objects)
+[2020.03.10-19.30.47:607][219]LogLinker: Warning: While loading '../../../../../GitHub/Le-VR-Project/Content/Areiazo/Maps/BlockoutV4.umap' failed to load '/Game/ZeFolder/Material/Sand_M': Can't find file.
+[2020.03.10-19.30.47:608][219]LogLinker: Warning: While loading '../../../../../GitHub/Le-VR-Project/Content/Areiazo/Maps/BlockoutV4.umap' failed to load '/Game/ZeFolder/Material/Sand_M': Can't find file.
+[2020.03.10-19.30.47:609][219]LogLinker: Warning: While loading '../../../../../GitHub/Le-VR-Project/Content/Areiazo/Maps/BlockoutV4.umap' failed to load '/Game/ZeFolder/Material/Wall_M': Can't find file.
+[2020.03.10-19.30.47:609][219]LogLinker: Warning: While loading '../../../../../GitHub/Le-VR-Project/Content/Areiazo/Maps/BlockoutV4.umap' failed to load '/Game/ZeFolder/Material/Wall_M': Can't find file.
+[2020.03.10-19.30.48:536][219]LogLinker: Warning: While loading '../../../../../GitHub/Le-VR-Project/Content/Areiazo/Maps/BlockoutV4.umap' failed to load '/Game/ZeFolder/Material/Sand_M': Can't find file.
+[2020.03.10-19.30.48:536][219]LogLinker: Warning: While loading '../../../../../GitHub/Le-VR-Project/Content/Areiazo/Maps/BlockoutV4.umap' failed to load '/Game/ZeFolder/Material/Sand_M': Can't find file.
+[2020.03.10-19.30.48:536][219]LogLinker: Warning: While loading '../../../../../GitHub/Le-VR-Project/Content/Areiazo/Maps/BlockoutV4.umap' failed to load '/Game/ZeFolder/Material/Wall_M': Can't find file.
+[2020.03.10-19.30.48:536][219]LogLinker: Warning: While loading '../../../../../GitHub/Le-VR-Project/Content/Areiazo/Maps/BlockoutV4.umap' failed to load '/Game/ZeFolder/Material/Wall_M': Can't find file.
+[2020.03.10-19.30.48:545][219]LogLinker: Warning: Failed to load '/Game/ZeFolder/Material/Sand_M': Can't find file.
+[2020.03.10-19.30.48:545][219]LogLinker: Warning: Failed to load '/Game/ZeFolder/Material/Sand_M': Can't find file.
+[2020.03.10-19.30.48:546][219]LogLinker: Warning: Failed to load '/Game/ZeFolder/Material/Wall_M': Can't find file.
+[2020.03.10-19.30.48:546][219]LogLinker: Warning: Failed to load '/Game/ZeFolder/Material/Wall_M': Can't find file.
+[2020.03.10-19.30.48:546][219]LogLinker: Warning: Failed to load '/Game/ZeFolder/Material/Sand_M': Can't find file.
+[2020.03.10-19.30.48:546][219]LogLinker: Warning: Failed to load '/Game/ZeFolder/Material/Sand_M': Can't find file.
+[2020.03.10-19.30.48:546][219]LogLinker: Warning: Failed to load '/Game/ZeFolder/Material/Wall_M': Can't find file.
+[2020.03.10-19.30.48:546][219]LogLinker: Warning: Failed to load '/Game/ZeFolder/Material/Wall_M': Can't find file.
+[2020.03.10-19.30.48:644][219]LogLinker: Warning: While loading '../../../../../GitHub/Le-VR-Project/Content/Areiazo/Maps/BlockoutV4.umap' failed to load '/Game/ZeFolder/Material/Wall_M': Can't find file.
+[2020.03.10-19.30.48:656][219]LoadErrors: Failed to load /Game/ZeFolder/Material/Wall_M.Wall_M Referenced by full_rough_map_v2_wall_225
+[2020.03.10-19.30.48:656][219]LogLinker: Warning: While loading '../../../../../GitHub/Le-VR-Project/Content/Areiazo/Maps/BlockoutV4.umap' failed to load '/Game/ZeFolder/Material/Wall_M': Can't find file.
+[2020.03.10-19.30.48:662][219]LogLinker: Warning: While loading '../../../../../GitHub/Le-VR-Project/Content/Areiazo/Maps/BlockoutV4.umap' failed to load '/Game/ZeFolder/Material/Sand_M': Can't find file.
+[2020.03.10-19.30.48:663][219]LoadErrors: Failed to load /Game/ZeFolder/Material/Sand_M.Sand_M Referenced by full_rough_map_v2_world_227
+[2020.03.10-19.30.48:663][219]LogLinker: Warning: While loading '../../../../../GitHub/Le-VR-Project/Content/Areiazo/Maps/BlockoutV4.umap' failed to load '/Game/ZeFolder/Material/Sand_M': Can't find file.
+[2020.03.10-19.30.50:743][219]LogAIModule: Creating AISystem for world BlockoutV4
+[2020.03.10-19.30.50:889][219]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Areiazo/Maps/BlockoutV4.BlockoutV4
+[2020.03.10-19.30.50:980][219]LogUObjectHash: Compacting FUObjectHashTables data took   5.42ms
+[2020.03.10-19.30.51:077][219]Cmd: MAP LOAD FILE="../../../../../GitHub/Le-VR-Project/Content/Areiazo/Maps/BlockoutV4.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.03.10-19.30.51:078][219]LightingResults: New page: Lighting Build
+[2020.03.10-19.30.51:079][219]LoadErrors: New page: Loading map: BlockoutV4.umap
+[2020.03.10-19.30.51:090][219]LogWorld: UWorld::CleanupWorld for Map_Demo_Menu, bSessionEnded=true, bCleanupResources=true
+[2020.03.10-19.30.51:141][219]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.03.10-19.30.51:232][219]MapCheck: New page: Map Check
+[2020.03.10-19.30.51:232][219]LightingResults: New page: Lighting Build
+[2020.03.10-19.30.51:385][219]LogUObjectHash: Compacting FUObjectHashTables data took   5.69ms
+[2020.03.10-19.30.51:985][219]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.03.10-19.30.52:138][219]LogUObjectHash: Compacting FUObjectHashTables data took   3.90ms
+[2020.03.10-19.30.52:197][219]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.03.10-19.30.52:220][219]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 22.661ms to complete.
+[2020.03.10-19.30.52:220][219]LogFileHelpers: Loading map 'BlockoutV4' took 1.237
+[2020.03.10-19.30.55:022][389]LogTemp: Repeating last play command: Selected Viewport
+[2020.03.10-19.30.55:072][389]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Areiazo/Maps/BlockoutV4.BlockoutV4:PersistentLevel' has LevelScriptBlueprint '/Game/Areiazo/Maps/BlockoutV4.BlockoutV4:PersistentLevel.BlockoutV4' with GeneratedClass '/Game/Areiazo/Maps/BlockoutV4.BlockoutV4_C' with ClassGeneratedBy '/Game/Areiazo/Maps/BlockoutV4.BlockoutV4:PersistentLevel.BlockoutV4'
+[2020.03.10-19.30.55:167][389]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.03.10-19.30.55:198][389]PIE: New page: PIE session: BlockoutV4 (Mar 10, 2020, 5:30:55 AM)
+[2020.03.10-19.30.55:264][389]LogOnline: OSS: Creating online subsystem instance for: NULL
+[2020.03.10-19.30.55:265][389]LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+[2020.03.10-19.30.55:281][389]LogPlayLevel: Creating play world package: /Game/Areiazo/Maps/UEDPIE_0_BlockoutV4
+[2020.03.10-19.30.55:357][389]LogPlayLevel: PIE: StaticDuplicateObject took: (0.076274s)
+[2020.03.10-19.30.55:396][389]LogAIModule: Creating AISystem for world BlockoutV4
+[2020.03.10-19.30.55:420][389]LogPlayLevel: PIE: World Init took: (0.062949s)
+[2020.03.10-19.30.55:420][389]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Areiazo/Maps/BlockoutV4.BlockoutV4 to /Game/Areiazo/Maps/UEDPIE_0_BlockoutV4.BlockoutV4 (0.139893s)
+[2020.03.10-19.30.55:449][389]LogUObjectHash: Compacting FUObjectHashTables data took   3.08ms
+[2020.03.10-19.30.55:459][389]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.03.10-19.30.55:460][389]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.03.10-19.30.55:460][389]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.03.10-19.30.55:460][389]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.03.10-19.30.55:460][389]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.03.10-19.30.55:460][389]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.03.10-19.30.55:460][389]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.03.10-19.30.55:460][389]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.03.10-19.30.55:460][389]LogAudio: Display: Using built-in audio occlusion.
+[2020.03.10-19.30.55:460][389]LogAudioMixer: Display: Initializing audio mixer.
+[2020.03.10-19.30.55:507][389]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.03.10-19.30.55:507][389]LogAudioMixer: Display: Name: Speakers (Realtek High Definition Audio)
+[2020.03.10-19.30.55:507][389]LogAudioMixer: Display: Is Default: Yes
+[2020.03.10-19.30.55:507][389]LogAudioMixer: Display: Sample Rate: 48000
+[2020.03.10-19.30.55:507][389]LogAudioMixer: Display: Channel Count Used: 2
+[2020.03.10-19.30.55:507][389]LogAudioMixer: Display: Device Channel Count: 2
+[2020.03.10-19.30.55:507][389]LogAudioMixer: Display: Channel Order:
+[2020.03.10-19.30.55:507][389]LogAudioMixer: Display: 0: FrontLeft
+[2020.03.10-19.30.55:507][389]LogAudioMixer: Display: 1: FrontRight
+[2020.03.10-19.30.55:537][389]LogAudioMixer: Display: Using Audio Device Speakers (Realtek High Definition Audio)
+[2020.03.10-19.30.55:548][389]LogInit: FAudioDevice initialized.
+[2020.03.10-19.30.55:633][389]LogLoad: Game class is 'BP_GameMode_Areiazo_C'
+[2020.03.10-19.30.55:906][389]LogWorld: Bringing World /Game/Areiazo/Maps/UEDPIE_0_BlockoutV4.BlockoutV4 up for play (max tick rate 0) at 2020.03.10-12.30.55
+[2020.03.10-19.30.55:958][389]LogWorld: Bringing up level for play took: 0.055137
+[2020.03.10-19.30.55:971][389]LogOnline: OSS: Creating online subsystem instance for: :Context_1
+[2020.03.10-19.30.56:122][389]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0004 seconds. Added 20 classes and 0 folders.
+[2020.03.10-19.30.56:139][389]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2020.03.10-19.30.56:139][389]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2020.03.10-19.30.56:139][389]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2020.03.10-19.30.56:254][389]LogLevel: Warning: Failed to find streaming level object associated with 'Map_Pause'
+[2020.03.10-19.30.56:254][389]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2020.03.10-19.30.56:266][389]PIE: Play in editor start time for /Game/Areiazo/Maps/UEDPIE_0_BlockoutV4 2.047
+[2020.03.10-19.30.56:266][389]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Areiazo/Maps/BlockoutV4.BlockoutV4:PersistentLevel' has LevelScriptBlueprint '/Game/Areiazo/Maps/BlockoutV4.BlockoutV4:PersistentLevel.BlockoutV4' with GeneratedClass '/Game/Areiazo/Maps/BlockoutV4.BlockoutV4_C' with ClassGeneratedBy '/Game/Areiazo/Maps/BlockoutV4.BlockoutV4:PersistentLevel.BlockoutV4'
+[2020.03.10-19.30.56:355][389]LogLevelStreaming: Display: FStreamLevelAction::UpdateOperation() LevelName Map_Pause, bIsLevelValid 0
+[2020.03.10-19.30.58:582][539]LogBlueprintUserMessages: [BP_Trigger_Test_2] Wassup
+[2020.03.10-19.30.58:593][539]LogBlueprintUserMessages: [BP_Trigger_Test_2] Hello
+[2020.03.10-19.31.08:450][496]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.03.10-19.31.08:450][496]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.03.10-19.31.08:475][496]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Areiazo/Maps/BlockoutV4.BlockoutV4:PersistentLevel' has LevelScriptBlueprint '/Game/Areiazo/Maps/BlockoutV4.BlockoutV4:PersistentLevel.BlockoutV4' with GeneratedClass '/Game/Areiazo/Maps/BlockoutV4.BlockoutV4_C' with ClassGeneratedBy '/Game/Areiazo/Maps/BlockoutV4.BlockoutV4:PersistentLevel.BlockoutV4'
+[2020.03.10-19.31.08:646][496]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.03.10-19.31.08:646][496]LogWorld: BeginTearingDown for /Game/Areiazo/Maps/UEDPIE_0_BlockoutV4
+[2020.03.10-19.31.08:674][496]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.03.10-19.31.08:726][496]LogWorld: UWorld::CleanupWorld for BlockoutV4, bSessionEnded=true, bCleanupResources=true
+[2020.03.10-19.31.08:744][496]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.03.10-19.31.08:818][496]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.03.10-19.31.08:819][496]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Areiazo/Maps/BlockoutV4.BlockoutV4:PersistentLevel' has LevelScriptBlueprint '/Game/Areiazo/Maps/BlockoutV4.BlockoutV4:PersistentLevel.BlockoutV4' with GeneratedClass '/Game/Areiazo/Maps/BlockoutV4.BlockoutV4_C' with ClassGeneratedBy '/Game/Areiazo/Maps/BlockoutV4.BlockoutV4:PersistentLevel.BlockoutV4'
+[2020.03.10-19.31.08:848][496]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.03.10-19.31.08:891][496]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.03.10-19.31.08:904][496]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.03.10-19.31.09:060][496]LogUObjectHash: Compacting FUObjectHashTables data took   3.60ms
+[2020.03.10-19.31.09:112][497]LogPlayLevel: Display: Destroying online subsystem :Context_1
+[2020.03.10-19.33.46:538][182]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (full_rough_map_v2_pPlane1)
+[2020.03.10-19.33.51:963][182]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (full_rough_map_v2_pPlane1)
+[2020.03.10-19.33.56:232][189]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (full_rough_map_v2_pPlane1)
+[2020.03.10-19.34.36:877][659]LogUObjectHash: Compacting FUObjectHashTables data took   3.69ms
+[2020.03.10-19.34.37:036][659]LogSlate: Window 'AdvancedVRFrameworkV22 - Unreal Editor' being destroyed
+[2020.03.10-19.34.37:049][659]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2020.03.10-19.34.37:722][660]Cmd: QUIT_EDITOR
+[2020.03.10-19.34.37:722][660]LogCore: Engine exit requested (reason: UUnrealEdEngine::CloseEditor())
+[2020.03.10-19.34.37:748][660]LogCore: Engine exit requested (reason: EngineExit() was called; note: exit was already requested)
+[2020.03.10-19.34.37:781][660]LogAudioMixer: Display: No commands were queued while flushing the source manager.
