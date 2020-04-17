@@ -573,3 +573,194 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2020.04.17-23.24.45:146][  0]LogHMD: Failed to initialize OpenVR with code 126
 [2020.04.17-23.24.45:861][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.579 s
 [2020.04.17-23.24.47:299][  0]LogInit: Initializing FReadOnlyCVARCache
+[2020.04.17-23.24.52:399][  0]LogAIModule: Creating AISystem for world Untitled
+[2020.04.17-23.24.53:797][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.04.17-23.24.53:797][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.04.17-23.24.53:797][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.04.17-23.24.53:797][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.04.17-23.24.53:797][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.04.17-23.24.53:797][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.04.17-23.24.53:797][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.04.17-23.24.53:826][  0]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.04.17-23.24.53:873][  0]LogAudio: Display: Using built-in audio occlusion.
+[2020.04.17-23.24.53:873][  0]LogAudioMixer: Display: Initializing audio mixer.
+[2020.04.17-23.24.54:125][  0]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.04.17-23.24.54:125][  0]LogAudioMixer: Display: Name: Speakers (Realtek High Definition Audio)
+[2020.04.17-23.24.54:125][  0]LogAudioMixer: Display: Is Default: Yes
+[2020.04.17-23.24.54:125][  0]LogAudioMixer: Display: Sample Rate: 48000
+[2020.04.17-23.24.54:125][  0]LogAudioMixer: Display: Channel Count Used: 2
+[2020.04.17-23.24.54:125][  0]LogAudioMixer: Display: Device Channel Count: 2
+[2020.04.17-23.24.54:125][  0]LogAudioMixer: Display: Channel Order:
+[2020.04.17-23.24.54:125][  0]LogAudioMixer: Display: 0: FrontLeft
+[2020.04.17-23.24.54:125][  0]LogAudioMixer: Display: 1: FrontRight
+[2020.04.17-23.24.54:171][  0]LogAudioMixer: Display: Using Audio Device Speakers (Realtek High Definition Audio)
+[2020.04.17-23.24.54:408][  0]LogInit: FAudioDevice initialized.
+[2020.04.17-23.24.54:423][  0]LogNetVersion: Set ProjectVersion to 2.0. Version Checksum will be recalculated on next use.
+[2020.04.17-23.24.54:435][  0]LogDerivedDataCache: Error: Could not save memory cache C:/Users/Ralphy/AppData/Local/UnrealEngine/4.24/DerivedDataCache/Boot.ddc.
+[2020.04.17-23.24.54:445][  0]LogInit: Texture streaming: Disabled
+[2020.04.17-23.24.56:602][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2020.04.17-23.24.56:628][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
+[2020.04.17-23.24.56:654][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
+[2020.04.17-23.25.02:051][  0]LogInit: Transaction tracking system initialized
+[2020.04.17-23.25.07:967][  0]BlueprintLog: New page: Editor Load
+[2020.04.17-23.25.22:173][  0]LocalizationService: Localization service is disabled
+[2020.04.17-23.25.40:868][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2020.04.17-23.25.40:868][  0]LogCook: Display: Mobile HDR setting 1
+[2020.04.17-23.25.46:513][  0]LogFileCache: Scanning file cache for directory 'D:/GitHub/Le-VR-Project/Content/' took 0.93s
+[2020.04.17-23.26.11:382][  0]SourceControl: Source control is disabled
+[2020.04.17-23.26.11:707][  0]Cmd: MAP LOAD FILE="../../../../../GitHub/Le-VR-Project/Content/AVRFramework/Experiences/Demospace/Maps/Streaming/Map_Demo_Menu.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.04.17-23.26.11:934][  0]LightingResults: New page: Lighting Build
+[2020.04.17-23.26.13:331][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2020.04.17-23.26.13:626][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.04.17-23.26.14:001][  0]MapCheck: New page: Map Check
+[2020.04.17-23.26.14:001][  0]LightingResults: New page: Lighting Build
+[2020.04.17-23.26.17:330][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.81ms
+[2020.04.17-23.27.14:534][  0]LogBlueprint: Warning: [Compiler BP_Pawn_VR] GetInputAxisKey Value specifies FKey'MotionController_Left_Thumbstick_X' which has been deprecated for  Get MotionController (L) Thumbstick X
+[2020.04.17-23.27.14:534][  0]LogBlueprint: Warning: [Compiler BP_Pawn_VR] GetInputAxisKey Value specifies FKey'MotionController_Right_Thumbstick_X' which has been deprecated for  Get MotionController (R) Thumbstick X
+[2020.04.17-23.27.14:534][  0]LogBlueprint: Warning: [Compiler BP_Pawn_VR] GetInputAxisKey Value specifies FKey'MotionController_Left_Thumbstick_Y' which has been deprecated for  Get MotionController (L) Thumbstick Y
+[2020.04.17-23.27.14:534][  0]LogBlueprint: Warning: [Compiler BP_Pawn_VR] GetInputAxisKey Value specifies FKey'MotionController_Right_Thumbstick_Y' which has been deprecated for  Get MotionController (R) Thumbstick Y
+[2020.04.17-23.27.14:535][  0]LogBlueprint: Warning: [Compiler BP_Pawn_VR] InputAxisKey Event specifies FKey'MotionController_Right_TriggerAxis' which has been deprecated for  MotionController (R) TriggerAxis
+[2020.04.17-23.27.14:535][  0]LogBlueprint: Warning: [Compiler BP_Pawn_VR] InputAxisKey Event specifies FKey'MotionController_Left_TriggerAxis' which has been deprecated for  MotionController (L) TriggerAxis
+[2020.04.17-23.27.14:536][  0]LogBlueprint: Warning: [Compiler BP_Pawn_VR] InputKey Event specifies FKey'MotionController_Right_Thumbstick' which has been deprecated for  MotionController (R) Thumbstick
+[2020.04.17-23.27.14:536][  0]LogBlueprint: Warning: [Compiler BP_Pawn_VR] InputAxisKey Event specifies FKey'MotionController_Right_Grip1Axis' which has been deprecated for  MotionController (R) Grip1 Axis
+[2020.04.17-23.27.14:536][  0]LogBlueprint: Warning: [Compiler BP_Pawn_VR] InputAxisKey Event specifies FKey'OculusTouch_Right_ThumbUp' that is not blueprint bindable for  Oculus Touch (R) Thumb Up CapTouch
+[2020.04.17-23.27.14:537][  0]LogBlueprint: Warning: [Compiler BP_Pawn_VR] InputAxisKey Event specifies FKey'OculusTouch_Right_IndexPointing' that is not blueprint bindable for  Oculus Touch (R) Pointing CapTouch
+[2020.04.17-23.27.14:537][  0]LogBlueprint: Warning: [Compiler BP_Pawn_VR] InputAxisKey Event specifies FKey'MotionController_Left_Grip1Axis' which has been deprecated for  MotionController (L) Grip1 Axis
+[2020.04.17-23.27.14:537][  0]LogBlueprint: Warning: [Compiler BP_Pawn_VR] InputAxisKey Event specifies FKey'OculusTouch_Left_ThumbUp' that is not blueprint bindable for  Oculus Touch (L) Thumb Up CapTouch
+[2020.04.17-23.27.14:537][  0]LogBlueprint: Warning: [Compiler BP_Pawn_VR] InputAxisKey Event specifies FKey'OculusTouch_Left_IndexPointing' that is not blueprint bindable for  Oculus Touch (L) Pointing CapTouch
+[2020.04.17-23.27.14:537][  0]LogBlueprint: Warning: [Compiler BP_Pawn_VR] InputKey Event specifies FKey'MotionController_Right_FaceButton4' which has been deprecated for  MotionController (R) FaceButton4
+[2020.04.17-23.27.14:537][  0]LogBlueprint: Warning: [Compiler BP_Pawn_VR] InputKey Event specifies FKey'MotionController_Left_FaceButton4' which has been deprecated for  MotionController (L) FaceButton4
+[2020.04.17-23.27.14:537][  0]LogBlueprint: Warning: [Compiler BP_Pawn_VR] InputKey Event specifies FKey'MotionController_Right_FaceButton2' which has been deprecated for  MotionController (R) FaceButton2
+[2020.04.17-23.27.14:537][  0]LogBlueprint: Warning: [Compiler BP_Pawn_VR] InputKey Event specifies FKey'MotionController_Left_FaceButton2' which has been deprecated for  MotionController (L) FaceButton2
+[2020.04.17-23.27.14:537][  0]LogBlueprint: Warning: [Compiler BP_Pawn_VR] InputKey Event specifies FKey'MotionController_Left_FaceButton1' which has been deprecated for  MotionController (L) FaceButton1
+[2020.04.17-23.27.14:537][  0]LogBlueprint: Warning: [Compiler BP_Pawn_VR] InputKey Event specifies FKey'MotionController_Right_FaceButton3' which has been deprecated for  MotionController (R) FaceButton3
+[2020.04.17-23.27.14:537][  0]LogBlueprint: Warning: [Compiler BP_Pawn_VR] InputKey Event specifies FKey'MotionController_Left_FaceButton3' which has been deprecated for  MotionController (L) FaceButton3
+[2020.04.17-23.27.14:537][  0]LogBlueprint: Warning: [Compiler BP_Pawn_VR] InputKey Event specifies FKey'MotionController_Right_FaceButton1' which has been deprecated for  MotionController (R) FaceButton1
+[2020.04.17-23.27.14:537][  0]LogBlueprint: Warning: [Compiler BP_Pawn_VR] InputKey Event specifies FKey'MotionController_Left_Trigger' which has been deprecated for  MotionController (L) Trigger
+[2020.04.17-23.27.14:537][  0]LogBlueprint: Warning: [Compiler BP_Pawn_VR] InputKey Event specifies FKey'MotionController_Right_Trigger' which has been deprecated for  MotionController (R) Trigger
+[2020.04.17-23.27.14:537][  0]LogBlueprint: Warning: [Compiler BP_Pawn_VR] InputKey Event specifies FKey'MotionController_Right_Grip1' which has been deprecated for  MotionController (R) Grip1
+[2020.04.17-23.27.14:537][  0]LogBlueprint: Warning: [Compiler BP_Pawn_VR] InputKey Event specifies FKey'MotionController_Left_Grip1' which has been deprecated for  MotionController (L) Grip1
+[2020.04.17-23.27.14:537][  0]LogBlueprint: Warning: [Compiler BP_Pawn_VR] InputKey Event specifies FKey'MotionController_Right_Shoulder' which has been deprecated for  MotionController (R) Shoulder
+[2020.04.17-23.27.14:537][  0]LogBlueprint: Warning: [Compiler BP_Pawn_VR] InputKey Event specifies FKey'MotionController_Left_Shoulder' which has been deprecated for  MotionController (L) Shoulder
+[2020.04.17-23.27.14:538][  0]LogBlueprint: Warning: [Compiler BP_Pawn_VR] InputKey Event specifies FKey'MotionController_Left_Thumbstick' which has been deprecated for  MotionController (L) Thumbstick
+[2020.04.17-23.27.14:538][  0]LogBlueprint: Warning: [Compiler BP_Pawn_VR] GetInputAxisKey Value specifies FKey'MotionController_Right_Thumbstick_X' which has been deprecated for  Get MotionController (R) Thumbstick X
+[2020.04.17-23.27.14:538][  0]LogBlueprint: Warning: [Compiler BP_Pawn_VR] GetInputAxisKey Value specifies FKey'MotionController_Right_Thumbstick_Y' which has been deprecated for  Get MotionController (R) Thumbstick Y
+[2020.04.17-23.27.14:538][  0]LogBlueprint: Warning: [Compiler BP_Pawn_VR] GetInputAxisKey Value specifies FKey'MotionController_Left_Thumbstick_X' which has been deprecated for  Get MotionController (L) Thumbstick X
+[2020.04.17-23.27.14:538][  0]LogBlueprint: Warning: [Compiler BP_Pawn_VR] GetInputAxisKey Value specifies FKey'MotionController_Left_Thumbstick_Y' which has been deprecated for  Get MotionController (L) Thumbstick Y
+[2020.04.17-23.27.19:973][  0]LogLinker: Warning: While loading '../../../../../GitHub/Le-VR-Project/Content/AVRFramework/Experiences/Demospace/Maps/Streaming/Map_Demo_Menu.umap' failed to load '/Game/Areiazo/FBX_Assets/DesertKitV1/FbxScene_DesertKitV1': Can't find file.
+[2020.04.17-23.27.19:974][  0]LogLinker: Warning: While loading '../../../../../GitHub/Le-VR-Project/Content/AVRFramework/Experiences/Demospace/Maps/Streaming/Map_Demo_Menu.umap' failed to load '/Game/Areiazo/FBX_Assets/DesertKitV1/FbxScene_DesertKitV1': Can't find file.
+[2020.04.17-23.27.50:603][  0]LogLinker: Warning: While loading '../../../../../GitHub/Le-VR-Project/Content/AVRFramework/Experiences/Demospace/Maps/Streaming/Map_Demo_Menu.umap' failed to load '/Game/Areiazo/FBX_Assets/DesertKitV1/FbxScene_DesertKitV1': Can't find file.
+[2020.04.17-23.27.50:603][  0]LogLinker: Warning: While loading '../../../../../GitHub/Le-VR-Project/Content/AVRFramework/Experiences/Demospace/Maps/Streaming/Map_Demo_Menu.umap' failed to load '/Game/Areiazo/FBX_Assets/DesertKitV1/FbxScene_DesertKitV1': Can't find file.
+[2020.04.17-23.27.50:604][  0]LogLinker: Warning: While loading '../../../../../GitHub/Le-VR-Project/Content/AVRFramework/Experiences/Demospace/Maps/Streaming/Map_Demo_Menu.umap' failed to load '/Game/Areiazo/FBX_Assets/DesertKitV1/FbxScene_DesertKitV1': Can't find file.
+[2020.04.17-23.27.50:604][  0]LogLinker: Warning: While loading '../../../../../GitHub/Le-VR-Project/Content/AVRFramework/Experiences/Demospace/Maps/Streaming/Map_Demo_Menu.umap' failed to load '/Game/Areiazo/FBX_Assets/DesertKitV1/FbxScene_DesertKitV1': Can't find file.
+[2020.04.17-23.27.50:607][  0]LogLinker: Warning: While loading '../../../../../GitHub/Le-VR-Project/Content/AVRFramework/Experiences/Demospace/Maps/Streaming/Map_Demo_Menu.umap' failed to load '/Game/Areiazo/FBX_Assets/DesertKitV1/FbxScene_DesertKitV1': Can't find file.
+[2020.04.17-23.27.50:607][  0]LogLinker: Warning: While loading '../../../../../GitHub/Le-VR-Project/Content/AVRFramework/Experiences/Demospace/Maps/Streaming/Map_Demo_Menu.umap' failed to load '/Game/Areiazo/FBX_Assets/DesertKitV1/FbxScene_DesertKitV1': Can't find file.
+[2020.04.17-23.27.50:607][  0]LogLinker: Warning: While loading '../../../../../GitHub/Le-VR-Project/Content/AVRFramework/Experiences/Demospace/Maps/Streaming/Map_Demo_Menu.umap' failed to load '/Game/Areiazo/FBX_Assets/DesertKitV1/FbxScene_DesertKitV1': Can't find file.
+[2020.04.17-23.27.50:607][  0]LogLinker: Warning: While loading '../../../../../GitHub/Le-VR-Project/Content/AVRFramework/Experiences/Demospace/Maps/Streaming/Map_Demo_Menu.umap' failed to load '/Game/Areiazo/FBX_Assets/DesertKitV1/FbxScene_DesertKitV1': Can't find file.
+[2020.04.17-23.27.50:607][  0]LogLinker: Warning: While loading '../../../../../GitHub/Le-VR-Project/Content/AVRFramework/Experiences/Demospace/Maps/Streaming/Map_Demo_Menu.umap' failed to load '/Game/Areiazo/FBX_Assets/DesertKitV1/FbxScene_DesertKitV1': Can't find file.
+[2020.04.17-23.27.50:608][  0]LogLinker: Warning: While loading '../../../../../GitHub/Le-VR-Project/Content/AVRFramework/Experiences/Demospace/Maps/Streaming/Map_Demo_Menu.umap' failed to load '/Game/Areiazo/FBX_Assets/DesertKitV1/FbxScene_DesertKitV1': Can't find file.
+[2020.04.17-23.27.50:608][  0]LogLinker: Warning: While loading '../../../../../GitHub/Le-VR-Project/Content/AVRFramework/Experiences/Demospace/Maps/Streaming/Map_Demo_Menu.umap' failed to load '/Game/Areiazo/FBX_Assets/DesertKitV1/FbxScene_DesertKitV1': Can't find file.
+[2020.04.17-23.27.50:608][  0]LogLinker: Warning: While loading '../../../../../GitHub/Le-VR-Project/Content/AVRFramework/Experiences/Demospace/Maps/Streaming/Map_Demo_Menu.umap' failed to load '/Game/Areiazo/FBX_Assets/DesertKitV1/FbxScene_DesertKitV1': Can't find file.
+[2020.04.17-23.27.50:608][  0]LogLinker: Warning: While loading '../../../../../GitHub/Le-VR-Project/Content/AVRFramework/Experiences/Demospace/Maps/Streaming/Map_Demo_Menu.umap' failed to load '/Game/Areiazo/FBX_Assets/DesertKitV1/FbxScene_DesertKitV1': Can't find file.
+[2020.04.17-23.27.50:608][  0]LogLinker: Warning: While loading '../../../../../GitHub/Le-VR-Project/Content/AVRFramework/Experiences/Demospace/Maps/Streaming/Map_Demo_Menu.umap' failed to load '/Game/Areiazo/FBX_Assets/DesertKitV1/FbxScene_DesertKitV1': Can't find file.
+[2020.04.17-23.27.50:608][  0]LogLinker: Warning: While loading '../../../../../GitHub/Le-VR-Project/Content/AVRFramework/Experiences/Demospace/Maps/Streaming/Map_Demo_Menu.umap' failed to load '/Game/Areiazo/FBX_Assets/DesertKitV1/FbxScene_DesertKitV1': Can't find file.
+[2020.04.17-23.27.50:608][  0]LogLinker: Warning: While loading '../../../../../GitHub/Le-VR-Project/Content/AVRFramework/Experiences/Demospace/Maps/Streaming/Map_Demo_Menu.umap' failed to load '/Game/Areiazo/FBX_Assets/DesertKitV1/FbxScene_DesertKitV1': Can't find file.
+[2020.04.17-23.27.50:608][  0]LogLinker: Warning: While loading '../../../../../GitHub/Le-VR-Project/Content/AVRFramework/Experiences/Demospace/Maps/Streaming/Map_Demo_Menu.umap' failed to load '/Game/Areiazo/FBX_Assets/DesertKitV1/FbxScene_DesertKitV1': Can't find file.
+[2020.04.17-23.27.50:608][  0]LogLinker: Warning: While loading '../../../../../GitHub/Le-VR-Project/Content/AVRFramework/Experiences/Demospace/Maps/Streaming/Map_Demo_Menu.umap' failed to load '/Game/Areiazo/FBX_Assets/DesertKitV1/FbxScene_DesertKitV1': Can't find file.
+[2020.04.17-23.27.50:608][  0]LogLinker: Warning: While loading '../../../../../GitHub/Le-VR-Project/Content/AVRFramework/Experiences/Demospace/Maps/Streaming/Map_Demo_Menu.umap' failed to load '/Game/Areiazo/FBX_Assets/DesertKitV1/FbxScene_DesertKitV1': Can't find file.
+[2020.04.17-23.27.50:608][  0]LogLinker: Warning: While loading '../../../../../GitHub/Le-VR-Project/Content/AVRFramework/Experiences/Demospace/Maps/Streaming/Map_Demo_Menu.umap' failed to load '/Game/Areiazo/FBX_Assets/DesertKitV1/FbxScene_DesertKitV1': Can't find file.
+[2020.04.17-23.27.50:609][  0]LogLinker: Warning: While loading '../../../../../GitHub/Le-VR-Project/Content/AVRFramework/Experiences/Demospace/Maps/Streaming/Map_Demo_Menu.umap' failed to load '/Game/Areiazo/FBX_Assets/DesertKitV1/FbxScene_DesertKitV1': Can't find file.
+[2020.04.17-23.27.50:609][  0]LogLinker: Warning: While loading '../../../../../GitHub/Le-VR-Project/Content/AVRFramework/Experiences/Demospace/Maps/Streaming/Map_Demo_Menu.umap' failed to load '/Game/Areiazo/FBX_Assets/DesertKitV1/FbxScene_DesertKitV1': Can't find file.
+[2020.04.17-23.27.50:609][  0]LogLinker: Warning: While loading '../../../../../GitHub/Le-VR-Project/Content/AVRFramework/Experiences/Demospace/Maps/Streaming/Map_Demo_Menu.umap' failed to load '/Game/Areiazo/FBX_Assets/DesertKitV1/FbxScene_DesertKitV1': Can't find file.
+[2020.04.17-23.27.50:609][  0]LogLinker: Warning: While loading '../../../../../GitHub/Le-VR-Project/Content/AVRFramework/Experiences/Demospace/Maps/Streaming/Map_Demo_Menu.umap' failed to load '/Game/Areiazo/FBX_Assets/DesertKitV1/FbxScene_DesertKitV1': Can't find file.
+[2020.04.17-23.27.50:609][  0]LogLinker: Warning: While loading '../../../../../GitHub/Le-VR-Project/Content/AVRFramework/Experiences/Demospace/Maps/Streaming/Map_Demo_Menu.umap' failed to load '/Game/Areiazo/FBX_Assets/DesertKitV1/FbxScene_DesertKitV1': Can't find file.
+[2020.04.17-23.27.50:609][  0]LogLinker: Warning: While loading '../../../../../GitHub/Le-VR-Project/Content/AVRFramework/Experiences/Demospace/Maps/Streaming/Map_Demo_Menu.umap' failed to load '/Game/Areiazo/FBX_Assets/DesertKitV1/FbxScene_DesertKitV1': Can't find file.
+[2020.04.17-23.27.50:609][  0]LogLinker: Warning: While loading '../../../../../GitHub/Le-VR-Project/Content/AVRFramework/Experiences/Demospace/Maps/Streaming/Map_Demo_Menu.umap' failed to load '/Game/Areiazo/FBX_Assets/DesertKitV1/FbxScene_DesertKitV1': Can't find file.
+[2020.04.17-23.27.50:609][  0]LogLinker: Warning: While loading '../../../../../GitHub/Le-VR-Project/Content/AVRFramework/Experiences/Demospace/Maps/Streaming/Map_Demo_Menu.umap' failed to load '/Game/Areiazo/FBX_Assets/DesertKitV1/FbxScene_DesertKitV1': Can't find file.
+[2020.04.17-23.27.50:609][  0]LogLinker: Warning: While loading '../../../../../GitHub/Le-VR-Project/Content/AVRFramework/Experiences/Demospace/Maps/Streaming/Map_Demo_Menu.umap' failed to load '/Game/Areiazo/FBX_Assets/DesertKitV1/FbxScene_DesertKitV1': Can't find file.
+[2020.04.17-23.27.50:609][  0]LogLinker: Warning: While loading '../../../../../GitHub/Le-VR-Project/Content/AVRFramework/Experiences/Demospace/Maps/Streaming/Map_Demo_Menu.umap' failed to load '/Game/Areiazo/FBX_Assets/DesertKitV1/FbxScene_DesertKitV1': Can't find file.
+[2020.04.17-23.27.50:610][  0]LogLinker: Warning: Failed to load '/Game/Areiazo/FBX_Assets/DesertKitV1/FbxScene_DesertKitV1': Can't find file.
+[2020.04.17-23.27.50:610][  0]LogLinker: Warning: Failed to load '/Game/Areiazo/FBX_Assets/DesertKitV1/FbxScene_DesertKitV1': Can't find file.
+[2020.04.17-23.27.50:610][  0]LogLinker: Warning: Failed to load '/Game/Areiazo/FBX_Assets/DesertKitV1/FbxScene_DesertKitV1': Can't find file.
+[2020.04.17-23.27.50:610][  0]LogLinker: Warning: Failed to load '/Game/Areiazo/FBX_Assets/DesertKitV1/FbxScene_DesertKitV1': Can't find file.
+[2020.04.17-23.27.50:610][  0]LogLinker: Warning: Failed to load '/Game/Areiazo/FBX_Assets/DesertKitV1/FbxScene_DesertKitV1': Can't find file.
+[2020.04.17-23.27.50:610][  0]LogLinker: Warning: Failed to load '/Game/Areiazo/FBX_Assets/DesertKitV1/FbxScene_DesertKitV1': Can't find file.
+[2020.04.17-23.27.50:610][  0]LogLinker: Warning: Failed to load '/Game/Areiazo/FBX_Assets/DesertKitV1/FbxScene_DesertKitV1': Can't find file.
+[2020.04.17-23.27.50:610][  0]LogLinker: Warning: Failed to load '/Game/Areiazo/FBX_Assets/DesertKitV1/FbxScene_DesertKitV1': Can't find file.
+[2020.04.17-23.27.50:610][  0]LogLinker: Warning: Failed to load '/Game/Areiazo/FBX_Assets/DesertKitV1/FbxScene_DesertKitV1': Can't find file.
+[2020.04.17-23.27.50:610][  0]LogLinker: Warning: Failed to load '/Game/Areiazo/FBX_Assets/DesertKitV1/FbxScene_DesertKitV1': Can't find file.
+[2020.04.17-23.27.50:610][  0]LogLinker: Warning: Failed to load '/Game/Areiazo/FBX_Assets/DesertKitV1/FbxScene_DesertKitV1': Can't find file.
+[2020.04.17-23.27.50:610][  0]LogLinker: Warning: Failed to load '/Game/Areiazo/FBX_Assets/DesertKitV1/FbxScene_DesertKitV1': Can't find file.
+[2020.04.17-23.27.50:610][  0]LogLinker: Warning: Failed to load '/Game/Areiazo/FBX_Assets/DesertKitV1/FbxScene_DesertKitV1': Can't find file.
+[2020.04.17-23.27.50:611][  0]LogLinker: Warning: Failed to load '/Game/Areiazo/FBX_Assets/DesertKitV1/FbxScene_DesertKitV1': Can't find file.
+[2020.04.17-23.27.50:611][  0]LogLinker: Warning: Failed to load '/Game/Areiazo/FBX_Assets/DesertKitV1/FbxScene_DesertKitV1': Can't find file.
+[2020.04.17-23.27.50:611][  0]LogLinker: Warning: Failed to load '/Game/Areiazo/FBX_Assets/DesertKitV1/FbxScene_DesertKitV1': Can't find file.
+[2020.04.17-23.27.50:611][  0]LogLinker: Warning: Failed to load '/Game/Areiazo/FBX_Assets/DesertKitV1/FbxScene_DesertKitV1': Can't find file.
+[2020.04.17-23.27.50:611][  0]LogLinker: Warning: Failed to load '/Game/Areiazo/FBX_Assets/DesertKitV1/FbxScene_DesertKitV1': Can't find file.
+[2020.04.17-23.27.50:611][  0]LogLinker: Warning: Failed to load '/Game/Areiazo/FBX_Assets/DesertKitV1/FbxScene_DesertKitV1': Can't find file.
+[2020.04.17-23.27.50:611][  0]LogLinker: Warning: Failed to load '/Game/Areiazo/FBX_Assets/DesertKitV1/FbxScene_DesertKitV1': Can't find file.
+[2020.04.17-23.27.50:611][  0]LogLinker: Warning: Failed to load '/Game/Areiazo/FBX_Assets/DesertKitV1/FbxScene_DesertKitV1': Can't find file.
+[2020.04.17-23.27.50:611][  0]LogLinker: Warning: Failed to load '/Game/Areiazo/FBX_Assets/DesertKitV1/FbxScene_DesertKitV1': Can't find file.
+[2020.04.17-23.27.50:611][  0]LogLinker: Warning: Failed to load '/Game/Areiazo/FBX_Assets/DesertKitV1/FbxScene_DesertKitV1': Can't find file.
+[2020.04.17-23.27.50:611][  0]LogLinker: Warning: Failed to load '/Game/Areiazo/FBX_Assets/DesertKitV1/FbxScene_DesertKitV1': Can't find file.
+[2020.04.17-23.27.50:611][  0]LogLinker: Warning: Failed to load '/Game/Areiazo/FBX_Assets/DesertKitV1/FbxScene_DesertKitV1': Can't find file.
+[2020.04.17-23.27.50:611][  0]LogLinker: Warning: Failed to load '/Game/Areiazo/FBX_Assets/DesertKitV1/FbxScene_DesertKitV1': Can't find file.
+[2020.04.17-23.27.50:611][  0]LogLinker: Warning: Failed to load '/Game/Areiazo/FBX_Assets/DesertKitV1/FbxScene_DesertKitV1': Can't find file.
+[2020.04.17-23.27.50:611][  0]LogLinker: Warning: Failed to load '/Game/Areiazo/FBX_Assets/DesertKitV1/FbxScene_DesertKitV1': Can't find file.
+[2020.04.17-23.27.50:612][  0]LogLinker: Warning: Failed to load '/Game/Areiazo/FBX_Assets/DesertKitV1/FbxScene_DesertKitV1': Can't find file.
+[2020.04.17-23.27.50:612][  0]LogLinker: Warning: Failed to load '/Game/Areiazo/FBX_Assets/DesertKitV1/FbxScene_DesertKitV1': Can't find file.
+[2020.04.17-23.27.50:612][  0]LogLinker: Warning: Failed to load '/Game/Areiazo/FBX_Assets/DesertKitV1/FbxScene_DesertKitV1': Can't find file.
+[2020.04.17-23.27.50:612][  0]LogLinker: Warning: Failed to load '/Game/Areiazo/FBX_Assets/DesertKitV1/FbxScene_DesertKitV1': Can't find file.
+[2020.04.17-23.27.50:614][  0]LogLinker: Warning: Failed to load '/Game/Areiazo/FBX_Assets/DesertKitV1/FbxScene_DesertKitV1': Can't find file.
+[2020.04.17-23.27.50:614][  0]LogLinker: Warning: Failed to load '/Game/Areiazo/FBX_Assets/DesertKitV1/FbxScene_DesertKitV1': Can't find file.
+[2020.04.17-23.27.50:614][  0]LogLinker: Warning: Failed to load '/Game/Areiazo/FBX_Assets/DesertKitV1/FbxScene_DesertKitV1': Can't find file.
+[2020.04.17-23.27.50:615][  0]LogLinker: Warning: Failed to load '/Game/Areiazo/FBX_Assets/DesertKitV1/FbxScene_DesertKitV1': Can't find file.
+[2020.04.17-23.28.07:404][  0]LogAIModule: Creating AISystem for world Map_Demo_Menu
+[2020.04.17-23.28.16:254][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.04.17-23.28.18:074][  0]LogUObjectHash: Compacting FUObjectHashTables data took  10.11ms
+[2020.04.17-23.28.18:429][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.04.17-23.28.18:492][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 40.712ms to complete.
+[2020.04.17-23.28.18:509][  0]LogFileHelpers: Loading map 'Map_Demo_Menu' took 127.055
+[2020.04.17-23.28.38:373][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.04.17-23.28.38:512][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.04.17-23.28.38:519][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.04.17-23.28.38:525][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.04.17-23.28.38:991][  0]LogCollectionManager: Loaded 0 collections in 0.016160 seconds
+[2020.04.17-23.28.39:194][  0]LogFileCache: Scanning file cache for directory 'D:/GitHub/Le-VR-Project/Saved/Collections/' took 0.00s
+[2020.04.17-23.28.39:194][  0]LogFileCache: Scanning file cache for directory 'D:/GitHub/Le-VR-Project/Content/Developers/Ralphy/Collections/' took 0.00s
+[2020.04.17-23.28.39:194][  0]LogFileCache: Scanning file cache for directory 'D:/GitHub/Le-VR-Project/Content/Collections/' took 0.00s
+[2020.04.17-23.28.39:194][  0]LogContentBrowser: Native class hierarchy populated in 0.0096 seconds. Added 3031 classes and 733 folders.
+[2020.04.17-23.28.39:555][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2020.04.17-23.28.43:307][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2020.04.17-23.28.55:209][  0]LogSlate: Took 0.041758 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2020.04.17-23.28.55:950][  0]LogSlate: Took 0.038711 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2020.04.17-23.28.56:210][  0]LogSlate: Took 0.020596 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2020.04.17-23.28.59:137][  0]LogRenderer: Reallocating scene render targets to support 940x660 Format 10 NumSamples 1 (Frame:1).
+[2020.04.17-23.29.02:839][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2020.04.17-23.29.02:839][  0]LogLoad: (Engine Initialization) Total time: 688.08 seconds
+[2020.04.17-23.29.02:839][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2020.04.17-23.29.03:306][  0]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'Camera': FbxScene_DesertKitV1_C /Game/AVRFramework/Experiences/Demospace/Maps/Streaming/Map_Demo_Menu.Map_Demo_Menu:PersistentLevel.FbxScene_DesertKitV1
+[2020.04.17-23.29.03:307][  0]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'Light': FbxScene_DesertKitV1_C /Game/AVRFramework/Experiences/Demospace/Maps/Streaming/Map_Demo_Menu.Map_Demo_Menu:PersistentLevel.FbxScene_DesertKitV1
+[2020.04.17-23.29.03:307][  0]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'DefaultSceneRoot': FbxScene_DesertKitV1_C /Game/AVRFramework/Experiences/Demospace/Maps/Streaming/Map_Demo_Menu.Map_Demo_Menu:PersistentLevel.FbxScene_DesertKitV1
+[2020.04.17-23.29.03:307][  0]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'DefaultSceneRoot1': FbxScene_DesertKitV1_C /Game/AVRFramework/Experiences/Demospace/Maps/Streaming/Map_Demo_Menu.Map_Demo_Menu:PersistentLevel.FbxScene_DesertKitV1
+[2020.04.17-23.29.03:307][  0]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'boulder_1': FbxScene_DesertKitV1_C /Game/AVRFramework/Experiences/Demospace/Maps/Streaming/Map_Demo_Menu.Map_Demo_Menu:PersistentLevel.FbxScene_DesertKitV1
+[2020.04.17-23.29.03:307][  0]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'boulder_2': FbxScene_DesertKitV1_C /Game/AVRFramework/Experiences/Demospace/Maps/Streaming/Map_Demo_Menu.Map_Demo_Menu:PersistentLevel.FbxScene_DesertKitV1
+[2020.04.17-23.29.03:307][  0]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'boulder_3': FbxScene_DesertKitV1_C /Game/AVRFramework/Experiences/Demospace/Maps/Streaming/Map_Demo_Menu.Map_Demo_Menu:PersistentLevel.FbxScene_DesertKitV1
+[2020.04.17-23.29.03:307][  0]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'cactus_1': FbxScene_DesertKitV1_C /Game/AVRFramework/Experiences/Demospace/Maps/Streaming/Map_Demo_Menu.Map_Demo_Menu:PersistentLevel.FbxScene_DesertKitV1
+[2020.04.17-23.29.03:307][  0]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'cactus_2': FbxScene_DesertKitV1_C /Game/AVRFramework/Experiences/Demospace/Maps/Streaming/Map_Demo_Menu.Map_Demo_Menu:PersistentLevel.FbxScene_DesertKitV1
+[2020.04.17-23.29.03:307][  0]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'cactus_3': FbxScene_DesertKitV1_C /Game/AVRFramework/Experiences/Demospace/Maps/Streaming/Map_Demo_Menu.Map_Demo_Menu:PersistentLevel.FbxScene_DesertKitV1
+[2020.04.17-23.29.03:307][  0]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'stone_1': FbxScene_DesertKitV1_C /Game/AVRFramework/Experiences/Demospace/Maps/Streaming/Map_Demo_Menu.Map_Demo_Menu:PersistentLevel.FbxScene_DesertKitV1
+[2020.04.17-23.29.03:307][  0]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'stone_2': FbxScene_DesertKitV1_C /Game/AVRFramework/Experiences/Demospace/Maps/Streaming/Map_Demo_Menu.Map_Demo_Menu:PersistentLevel.FbxScene_DesertKitV1
+[2020.04.17-23.29.03:307][  0]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'stone_3': FbxScene_DesertKitV1_C /Game/AVRFramework/Experiences/Demospace/Maps/Streaming/Map_Demo_Menu.Map_Demo_Menu:PersistentLevel.FbxScene_DesertKitV1
+[2020.04.17-23.29.03:307][  0]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'tumbleweed': FbxScene_DesertKitV1_C /Game/AVRFramework/Experiences/Demospace/Maps/Streaming/Map_Demo_Menu.Map_Demo_Menu:PersistentLevel.FbxScene_DesertKitV1
+[2020.04.17-23.29.05:010][  0]LogSlate: Took 0.121809 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.04.17-23.29.05:850][  1]LogFileCache: Retrieving MD5 hashes for directory 'D:/GitHub/Le-VR-Project/Content/' took 2.26s
+[2020.04.17-23.29.07:304][  5]LogAssetRegistry: Asset discovery search completed in 449.2715 seconds
+[2020.04.17-23.29.07:419][  5]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000026 seconds (updated 0 objects)
+[2020.04.17-23.30.09:871][581]LogUObjectHash: Compacting FUObjectHashTables data took   1.23ms
+[2020.04.17-23.30.10:040][581]LogSlate: Window 'AdvancedVRFrameworkV22 - Unreal Editor' being destroyed
+[2020.04.17-23.30.10:056][581]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2020.04.17-23.30.10:770][582]Cmd: QUIT_EDITOR
+[2020.04.17-23.30.10:770][582]LogCore: Engine exit requested (reason: UUnrealEdEngine::CloseEditor())
+[2020.04.17-23.30.10:798][582]LogCore: Engine exit requested (reason: EngineExit() was called; note: exit was already requested)
+[2020.04.17-23.30.10:845][582]LogAudioMixer: Display: No commands were queued while flushing the source manager.
