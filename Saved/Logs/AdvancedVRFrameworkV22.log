@@ -2771,3 +2771,289 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2020.05.12-23.30.53:440][401]AssetCheck: New page: Asset Save: multiple assets
 [2020.05.12-23.30.53:440][401]LogContentValidation: Display: Validating World /Game/Areiazo/Maps/InnerChurch.InnerChurch
 [2020.05.12-23.30.53:440][401]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Areiazo/Maps/InnerChurch_BuiltData.InnerChurch_BuiltData
+[2020.05.12-23.31.23:786][709]LogTemp: Repeating last play command: Selected Viewport
+[2020.05.12-23.31.23:816][709]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.05.12-23.31.23:816][709]PIE: New page: PIE session: InnerChurch (May 12, 2020, 9:31:23 AM)
+[2020.05.12-23.31.23:816][709]LogPlayLevel: Creating play world package: /Game/Areiazo/Maps/UEDPIE_0_InnerChurch
+[2020.05.12-23.31.23:825][709]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008729s)
+[2020.05.12-23.31.23:826][709]LogAIModule: Creating AISystem for world InnerChurch
+[2020.05.12-23.31.23:826][709]LogPlayLevel: PIE: World Init took: (0.001090s)
+[2020.05.12-23.31.23:826][709]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Areiazo/Maps/InnerChurch.InnerChurch to /Game/Areiazo/Maps/UEDPIE_0_InnerChurch.InnerChurch (0.009993s)
+[2020.05.12-23.31.23:881][709]LogUObjectHash: Compacting FUObjectHashTables data took   5.01ms
+[2020.05.12-23.31.23:884][709]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.05.12-23.31.23:884][709]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.05.12-23.31.23:884][709]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.05.12-23.31.23:884][709]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.05.12-23.31.23:884][709]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.05.12-23.31.23:884][709]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.05.12-23.31.23:884][709]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.05.12-23.31.23:884][709]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.05.12-23.31.23:884][709]LogAudio: Display: Using built-in audio occlusion.
+[2020.05.12-23.31.23:884][709]LogAudioMixer: Display: Initializing audio mixer.
+[2020.05.12-23.31.23:954][709]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.05.12-23.31.23:954][709]LogAudioMixer: Display: Name: Speakers (Realtek High Definition Audio)
+[2020.05.12-23.31.23:954][709]LogAudioMixer: Display: Is Default: Yes
+[2020.05.12-23.31.23:954][709]LogAudioMixer: Display: Sample Rate: 48000
+[2020.05.12-23.31.23:954][709]LogAudioMixer: Display: Channel Count Used: 2
+[2020.05.12-23.31.23:954][709]LogAudioMixer: Display: Device Channel Count: 2
+[2020.05.12-23.31.23:954][709]LogAudioMixer: Display: Channel Order:
+[2020.05.12-23.31.23:954][709]LogAudioMixer: Display: 0: FrontLeft
+[2020.05.12-23.31.23:954][709]LogAudioMixer: Display: 1: FrontRight
+[2020.05.12-23.31.23:987][709]LogAudioMixer: Display: Using Audio Device Speakers (Realtek High Definition Audio)
+[2020.05.12-23.31.23:989][709]LogInit: FAudioDevice initialized.
+[2020.05.12-23.31.24:000][709]LogLoad: Game class is 'BP_GameMode_Areiazo_C'
+[2020.05.12-23.31.24:004][709]LogPhysics: Warning: Scale for /Game/Areiazo/Maps/UEDPIE_0_InnerChurch.InnerChurch:PersistentLevel.Floor24.StaticMeshComponent0 has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.250 Z=7.000
+[2020.05.12-23.31.24:004][709]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2020.05.12-23.31.24:004][709]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2020.05.12-23.31.24:004][709]LogWorld: Bringing World /Game/Areiazo/Maps/UEDPIE_0_InnerChurch.InnerChurch up for play (max tick rate 0) at 2020.05.12-16.31.24
+[2020.05.12-23.31.24:005][709]LogWorld: Bringing up level for play took: 0.003790
+[2020.05.12-23.31.24:005][709]LogOnline: OSS: Creating online subsystem instance for: :Context_46
+[2020.05.12-23.31.24:007][709]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2020.05.12-23.31.24:007][709]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2020.05.12-23.31.24:007][709]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2020.05.12-23.31.24:007][709]LogLevel: Warning: Failed to find streaming level object associated with 'Map_Pause'
+[2020.05.12-23.31.24:007][709]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2020.05.12-23.31.24:007][709]PIE: Play in editor start time for /Game/Areiazo/Maps/UEDPIE_0_InnerChurch 1.073
+[2020.05.12-23.31.24:008][709]LogLevelStreaming: Display: FStreamLevelAction::UpdateOperation() LevelName Map_Pause, bIsLevelValid 0
+[2020.05.12-23.31.24:778][792]LogScript: Warning: UGameplayStatics::SpawnObject no class specified
+[2020.05.12-23.31.24:779][792]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/AVRFramework/Framework/BP_Pawn_NonVR_Normal.BP_Pawn_NonVR_Normal_C:ExecuteUbergraph_BP_Pawn_NonVR_Normal'!
+[2020.05.12-23.31.24:782][792]LogScript: Warning: UGameplayStatics::SpawnObject no class specified
+[2020.05.12-23.31.24:782][792]LogScript: Warning: Accessed None trying to read property CallFunc_getInfoLevels_InfoLevels
+	BP_GameMode_Areiazo_C /Game/Areiazo/Maps/UEDPIE_0_InnerChurch.InnerChurch:PersistentLevel.BP_GameMode_Areiazo_C_0
+	Function /Game/AVRFramework/Framework/BP_GameMode_Main.BP_GameMode_Main_C:UpdateInfoUI:0036
+[2020.05.12-23.31.24:782][792]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_getInfoLevels_InfoLevels". Blueprint:  BP_GameMode_Main Function:  Update Info UI Graph:  UpdateInfoUI Node:  Branch
+[2020.05.12-23.31.24:782][792]LogScript: Warning: UGameplayStatics::SpawnObject no class specified
+[2020.05.12-23.31.36:070][972]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.12-23.31.36:070][972]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.12-23.31.36:071][972]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.05.12-23.31.36:071][972]LogWorld: BeginTearingDown for /Game/Areiazo/Maps/UEDPIE_0_InnerChurch
+[2020.05.12-23.31.36:071][972]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.12-23.31.36:071][972]LogWorld: UWorld::CleanupWorld for InnerChurch, bSessionEnded=true, bCleanupResources=true
+[2020.05.12-23.31.36:072][972]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.05.12-23.31.36:080][972]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.05.12-23.31.36:089][972]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.05.12-23.31.36:137][972]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.12-23.31.36:140][972]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.05.12-23.31.36:147][972]LogUObjectHash: Compacting FUObjectHashTables data took   4.84ms
+[2020.05.12-23.31.36:201][973]LogPlayLevel: Display: Destroying online subsystem :Context_46
+[2020.05.12-23.31.37:405][ 43]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Sundial_Base2)
+[2020.05.12-23.32.13:503][681]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (RuinsKit_tile_floor14)
+[2020.05.12-23.32.14:259][713]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Sundial_Base2)
+[2020.05.12-23.32.22:668][190]LogActorFactory: Actor Factory created Sundial_Base1
+[2020.05.12-23.32.23:738][239]LogActorFactory: Actor Factory created Sundial_Base1
+[2020.05.12-23.32.24:874][306]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Sundial_Base2)
+[2020.05.12-23.32.25:887][364]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Sundial_Base1)
+[2020.05.12-23.32.44:116][399]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Sundial_Base1)
+[2020.05.12-23.32.44:756][437]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (RuinsKit_tile_floor15)
+[2020.05.12-23.32.45:599][486]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Sundial_Base2)
+[2020.05.12-23.33.16:030][533]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Sundial_Base1)
+[2020.05.12-23.33.19:434][708]LogAssetEditorSubsystem: Opening Asset editor for StaticMesh /Game/Areiazo/FBX_Assets/Church/Church_Exterior/Sundial_Base1.Sundial_Base1
+[2020.05.12-23.33.40:488][748]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Sundial_Base2)
+[2020.05.12-23.34.00:431][236]LogActorFactory: Actor Factory created Sun_Symbol
+[2020.05.12-23.34.02:219][305]LogActorFactory: Actor Factory created Sun_Symbol
+[2020.05.12-23.34.13:583][835]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Sundial_Base2)
+[2020.05.12-23.34.17:774][ 81]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Sundial_Base2)
+[2020.05.12-23.34.26:169][541]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Sun_Symbol)
+[2020.05.12-23.34.39:707][272]LogActorFactory: Actor Factory created Sundail_Needle
+[2020.05.12-23.34.40:698][318]LogActorFactory: Actor Factory created Sundail_Needle
+[2020.05.12-23.35.26:539][629]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Sun_Symbol)
+[2020.05.12-23.35.27:504][681]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Sundial_Base2)
+[2020.05.12-23.35.54:736][804]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Areiazo/Maps/InnerChurch" FILE="../../../../../GitHub/Le-VR-Project/Content/Areiazo/Maps/InnerChurch.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2020.05.12-23.35.54:797][804]LogUObjectHash: Compacting FUObjectHashTables data took   6.20ms
+[2020.05.12-23.35.54:853][804]LogSavePackage: Moving '../../../../../GitHub/Le-VR-Project/Saved/InnerChurch0947CF2142224064C563A0A25A33FF3D.tmp' to '../../../../../GitHub/Le-VR-Project/Content/Areiazo/Maps/InnerChurch.umap'
+[2020.05.12-23.35.54:887][804]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Areiazo/Maps/InnerChurch_BuiltData" FILE="../../../../../GitHub/Le-VR-Project/Content/Areiazo/Maps/InnerChurch_BuiltData.uasset" SILENT=true
+[2020.05.12-23.35.54:913][804]LogSavePackage: Moving '../../../../../GitHub/Le-VR-Project/Saved/InnerChurch_BuiltData32205CED4830355C5217A180E12E0583.tmp' to '../../../../../GitHub/Le-VR-Project/Content/Areiazo/Maps/InnerChurch_BuiltData.uasset'
+[2020.05.12-23.35.54:943][804]AssetCheck: New page: Asset Save: multiple assets
+[2020.05.12-23.35.54:943][804]LogContentValidation: Display: Validating World /Game/Areiazo/Maps/InnerChurch.InnerChurch
+[2020.05.12-23.35.54:943][804]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Areiazo/Maps/InnerChurch_BuiltData.InnerChurch_BuiltData
+[2020.05.12-23.36.05:216][244]LogActorFactory: Actor Factory created Neptune_Symbol
+[2020.05.12-23.36.05:857][268]LogActorFactory: Actor Factory created Neptune_Symbol
+[2020.05.12-23.36.31:980][545]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Sundial_Base2)
+[2020.05.12-23.36.34:105][662]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Sun_Symbol)
+[2020.05.12-23.36.35:874][760]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Neptune_Symbol)
+[2020.05.12-23.37.08:705][475]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor21)
+[2020.05.12-23.37.13:137][673]LogActorFactory: Actor Factory created Jupiter_Symbol
+[2020.05.12-23.37.13:535][687]LogActorFactory: Actor Factory created Jupiter_Symbol
+[2020.05.12-23.38.09:682][864]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Sun_Symbol)
+[2020.05.12-23.38.21:255][469]LogActorFactory: Actor Factory created Mars_Symbol
+[2020.05.12-23.38.21:547][479]LogActorFactory: Actor Factory created Mars_Symbol
+[2020.05.12-23.38.34:955][ 64]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Areiazo/Maps/InnerChurch" FILE="../../../../../GitHub/Le-VR-Project/Content/Areiazo/Maps/InnerChurch.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2020.05.12-23.38.35:011][ 64]LogUObjectHash: Compacting FUObjectHashTables data took   4.15ms
+[2020.05.12-23.38.35:064][ 64]LogSavePackage: Moving '../../../../../GitHub/Le-VR-Project/Saved/InnerChurch44D40C9D4648E2930B05EA9BC3313FD7.tmp' to '../../../../../GitHub/Le-VR-Project/Content/Areiazo/Maps/InnerChurch.umap'
+[2020.05.12-23.38.35:099][ 64]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Areiazo/Maps/InnerChurch_BuiltData" FILE="../../../../../GitHub/Le-VR-Project/Content/Areiazo/Maps/InnerChurch_BuiltData.uasset" SILENT=true
+[2020.05.12-23.38.35:110][ 64]LogSavePackage: Moving '../../../../../GitHub/Le-VR-Project/Saved/InnerChurch_BuiltData7428339E4961DE18DC4F8DA0EE569BE9.tmp' to '../../../../../GitHub/Le-VR-Project/Content/Areiazo/Maps/InnerChurch_BuiltData.uasset'
+[2020.05.12-23.38.35:142][ 64]AssetCheck: New page: Asset Save: multiple assets
+[2020.05.12-23.38.35:142][ 64]LogContentValidation: Display: Validating World /Game/Areiazo/Maps/InnerChurch.InnerChurch
+[2020.05.12-23.38.35:142][ 64]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Areiazo/Maps/InnerChurch_BuiltData.InnerChurch_BuiltData
+[2020.05.12-23.39.36:472][758]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Areiazo/Maps/InnerChurch" FILE="../../../../../GitHub/Le-VR-Project/Content/Areiazo/Maps/InnerChurch.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2020.05.12-23.39.36:526][758]LogUObjectHash: Compacting FUObjectHashTables data took   1.65ms
+[2020.05.12-23.39.36:576][758]LogSavePackage: Moving '../../../../../GitHub/Le-VR-Project/Saved/InnerChurchBCEFB63B45EC1739A5E8779E4B564A63.tmp' to '../../../../../GitHub/Le-VR-Project/Content/Areiazo/Maps/InnerChurch.umap'
+[2020.05.12-23.39.36:613][758]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Areiazo/Maps/InnerChurch_BuiltData" FILE="../../../../../GitHub/Le-VR-Project/Content/Areiazo/Maps/InnerChurch_BuiltData.uasset" SILENT=true
+[2020.05.12-23.39.36:624][758]LogSavePackage: Moving '../../../../../GitHub/Le-VR-Project/Saved/InnerChurch_BuiltData17F266604166B03FC79F178C6509EB9E.tmp' to '../../../../../GitHub/Le-VR-Project/Content/Areiazo/Maps/InnerChurch_BuiltData.uasset'
+[2020.05.12-23.39.36:653][758]AssetCheck: New page: Asset Save: multiple assets
+[2020.05.12-23.39.36:653][758]LogContentValidation: Display: Validating World /Game/Areiazo/Maps/InnerChurch.InnerChurch
+[2020.05.12-23.39.36:653][758]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Areiazo/Maps/InnerChurch_BuiltData.InnerChurch_BuiltData
+[2020.05.12-23.39.50:245][349]LogActorFactory: Actor Factory created Mercury_Symbol
+[2020.05.12-23.39.51:409][395]LogActorFactory: Actor Factory created Mercury_Symbol
+[2020.05.12-23.40.10:220][451]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Sundial_Base2)
+[2020.05.12-23.40.10:946][495]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Mercury_Symbol)
+[2020.05.12-23.41.34:490][811]LogActorFactory: Actor Factory created Earth_Symbol
+[2020.05.12-23.41.35:136][841]LogActorFactory: Actor Factory created Earth_Symbol
+[2020.05.12-23.41.58:543][120]LogActorFactory: Actor Factory created Venus_Symbol
+[2020.05.12-23.41.59:576][171]LogActorFactory: Actor Factory created Venus_Symbol
+[2020.05.12-23.42.24:931][753]LogActorFactory: Actor Factory created Pluto_Symbol
+[2020.05.12-23.42.25:877][795]LogActorFactory: Actor Factory created Pluto_Symbol
+[2020.05.12-23.42.38:186][496]Cmd: TRANSACTION UNDO
+[2020.05.12-23.42.38:186][496]LogEditorTransaction: Undo Rotate Actors
+[2020.05.12-23.42.38:935][515]Cmd: TRANSACTION UNDO
+[2020.05.12-23.42.38:935][515]LogEditorTransaction: Undo Rotate Actors
+[2020.05.12-23.43.00:650][716]LogActorFactory: Actor Factory created Saturn_Symbol
+[2020.05.12-23.43.01:651][767]LogActorFactory: Actor Factory created Saturn_Symbol
+[2020.05.12-23.43.12:322][426]Cmd: TRANSACTION UNDO
+[2020.05.12-23.43.12:322][426]LogEditorTransaction: Undo Rotate Actors
+[2020.05.12-23.43.13:045][444]Cmd: TRANSACTION UNDO
+[2020.05.12-23.43.13:045][444]LogEditorTransaction: Undo Rotate Actors
+[2020.05.12-23.44.07:561][588]LogActorFactory: Actor Factory created Uranus_Symbol
+[2020.05.12-23.44.08:679][641]LogActorFactory: Actor Factory created Uranus_Symbol
+[2020.05.12-23.44.19:708][326]Cmd: TRANSACTION UNDO
+[2020.05.12-23.44.19:708][326]LogEditorTransaction: Undo Rotate Actors
+[2020.05.12-23.44.37:236][309]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Sundial_Base2)
+[2020.05.12-23.44.37:819][337]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Saturn_Symbol)
+[2020.05.12-23.44.42:746][595]LogTemp: Repeating last play command: Selected Viewport
+[2020.05.12-23.44.42:778][595]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.05.12-23.44.42:779][595]PIE: New page: PIE session: InnerChurch (May 12, 2020, 9:44:42 AM)
+[2020.05.12-23.44.42:779][595]LogPlayLevel: Creating play world package: /Game/Areiazo/Maps/UEDPIE_0_InnerChurch
+[2020.05.12-23.44.42:789][595]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009621s)
+[2020.05.12-23.44.42:790][595]LogAIModule: Creating AISystem for world InnerChurch
+[2020.05.12-23.44.42:790][595]LogPlayLevel: PIE: World Init took: (0.001395s)
+[2020.05.12-23.44.42:790][595]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Areiazo/Maps/InnerChurch.InnerChurch to /Game/Areiazo/Maps/UEDPIE_0_InnerChurch.InnerChurch (0.011233s)
+[2020.05.12-23.44.42:839][595]LogUObjectHash: Compacting FUObjectHashTables data took   5.85ms
+[2020.05.12-23.44.42:842][595]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.05.12-23.44.42:842][595]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.05.12-23.44.42:842][595]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.05.12-23.44.42:842][595]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.05.12-23.44.42:842][595]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.05.12-23.44.42:842][595]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.05.12-23.44.42:842][595]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.05.12-23.44.42:842][595]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.05.12-23.44.42:843][595]LogAudio: Display: Using built-in audio occlusion.
+[2020.05.12-23.44.42:843][595]LogAudioMixer: Display: Initializing audio mixer.
+[2020.05.12-23.44.42:914][595]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.05.12-23.44.42:914][595]LogAudioMixer: Display: Name: Speakers (Realtek High Definition Audio)
+[2020.05.12-23.44.42:914][595]LogAudioMixer: Display: Is Default: Yes
+[2020.05.12-23.44.42:914][595]LogAudioMixer: Display: Sample Rate: 48000
+[2020.05.12-23.44.42:914][595]LogAudioMixer: Display: Channel Count Used: 2
+[2020.05.12-23.44.42:914][595]LogAudioMixer: Display: Device Channel Count: 2
+[2020.05.12-23.44.42:914][595]LogAudioMixer: Display: Channel Order:
+[2020.05.12-23.44.42:914][595]LogAudioMixer: Display: 0: FrontLeft
+[2020.05.12-23.44.42:914][595]LogAudioMixer: Display: 1: FrontRight
+[2020.05.12-23.44.42:946][595]LogAudioMixer: Display: Using Audio Device Speakers (Realtek High Definition Audio)
+[2020.05.12-23.44.42:949][595]LogInit: FAudioDevice initialized.
+[2020.05.12-23.44.42:957][595]LogLoad: Game class is 'BP_GameMode_Areiazo_C'
+[2020.05.12-23.44.42:960][595]LogPhysics: Warning: Scale for /Game/Areiazo/Maps/UEDPIE_0_InnerChurch.InnerChurch:PersistentLevel.Floor24.StaticMeshComponent0 has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.250 Z=7.000
+[2020.05.12-23.44.42:960][595]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2020.05.12-23.44.42:960][595]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2020.05.12-23.44.42:961][595]LogWorld: Bringing World /Game/Areiazo/Maps/UEDPIE_0_InnerChurch.InnerChurch up for play (max tick rate 0) at 2020.05.12-16.44.42
+[2020.05.12-23.44.42:962][595]LogWorld: Bringing up level for play took: 0.004299
+[2020.05.12-23.44.42:962][595]LogOnline: OSS: Creating online subsystem instance for: :Context_48
+[2020.05.12-23.44.42:963][595]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2020.05.12-23.44.42:964][595]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2020.05.12-23.44.42:964][595]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2020.05.12-23.44.42:964][595]LogLevel: Warning: Failed to find streaming level object associated with 'Map_Pause'
+[2020.05.12-23.44.42:964][595]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2020.05.12-23.44.42:964][595]PIE: Play in editor start time for /Game/Areiazo/Maps/UEDPIE_0_InnerChurch 0.03
+[2020.05.12-23.44.42:965][595]LogLevelStreaming: Display: FStreamLevelAction::UpdateOperation() LevelName Map_Pause, bIsLevelValid 0
+[2020.05.12-23.44.43:731][677]LogScript: Warning: UGameplayStatics::SpawnObject no class specified
+[2020.05.12-23.44.43:732][677]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/AVRFramework/Framework/BP_Pawn_NonVR_Normal.BP_Pawn_NonVR_Normal_C:ExecuteUbergraph_BP_Pawn_NonVR_Normal'!
+[2020.05.12-23.44.43:735][677]LogScript: Warning: UGameplayStatics::SpawnObject no class specified
+[2020.05.12-23.44.43:735][677]LogScript: Warning: Accessed None trying to read property CallFunc_getInfoLevels_InfoLevels
+	BP_GameMode_Areiazo_C /Game/Areiazo/Maps/UEDPIE_0_InnerChurch.InnerChurch:PersistentLevel.BP_GameMode_Areiazo_C_0
+	Function /Game/AVRFramework/Framework/BP_GameMode_Main.BP_GameMode_Main_C:UpdateInfoUI:0036
+[2020.05.12-23.44.43:735][677]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_getInfoLevels_InfoLevels". Blueprint:  BP_GameMode_Main Function:  Update Info UI Graph:  UpdateInfoUI Node:  Branch
+[2020.05.12-23.44.43:735][677]LogScript: Warning: UGameplayStatics::SpawnObject no class specified
+[2020.05.12-23.44.54:983][855]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.12-23.44.54:983][855]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.12-23.44.54:984][855]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.05.12-23.44.54:984][855]LogWorld: BeginTearingDown for /Game/Areiazo/Maps/UEDPIE_0_InnerChurch
+[2020.05.12-23.44.54:984][855]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.12-23.44.54:984][855]LogWorld: UWorld::CleanupWorld for InnerChurch, bSessionEnded=true, bCleanupResources=true
+[2020.05.12-23.44.54:985][855]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.05.12-23.44.54:993][855]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.05.12-23.44.55:004][855]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.05.12-23.44.55:062][855]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.12-23.44.55:065][855]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.05.12-23.44.55:072][855]LogUObjectHash: Compacting FUObjectHashTables data took   5.40ms
+[2020.05.12-23.44.55:125][856]LogPlayLevel: Display: Destroying online subsystem :Context_48
+[2020.05.12-23.45.02:345][ 99]LogTemp: Repeating last play command: Selected Viewport
+[2020.05.12-23.45.02:371][ 99]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.05.12-23.45.02:371][ 99]PIE: New page: PIE session: InnerChurch (May 12, 2020, 9:45:02 AM)
+[2020.05.12-23.45.02:371][ 99]LogPlayLevel: Creating play world package: /Game/Areiazo/Maps/UEDPIE_0_InnerChurch
+[2020.05.12-23.45.02:380][ 99]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008768s)
+[2020.05.12-23.45.02:381][ 99]LogAIModule: Creating AISystem for world InnerChurch
+[2020.05.12-23.45.02:381][ 99]LogPlayLevel: PIE: World Init took: (0.001249s)
+[2020.05.12-23.45.02:382][ 99]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Areiazo/Maps/InnerChurch.InnerChurch to /Game/Areiazo/Maps/UEDPIE_0_InnerChurch.InnerChurch (0.010342s)
+[2020.05.12-23.45.02:437][ 99]LogUObjectHash: Compacting FUObjectHashTables data took   5.27ms
+[2020.05.12-23.45.02:438][ 99]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.05.12-23.45.02:438][ 99]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.05.12-23.45.02:438][ 99]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.05.12-23.45.02:438][ 99]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.05.12-23.45.02:438][ 99]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.05.12-23.45.02:438][ 99]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.05.12-23.45.02:438][ 99]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.05.12-23.45.02:438][ 99]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.05.12-23.45.02:439][ 99]LogAudio: Display: Using built-in audio occlusion.
+[2020.05.12-23.45.02:439][ 99]LogAudioMixer: Display: Initializing audio mixer.
+[2020.05.12-23.45.02:507][ 99]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.05.12-23.45.02:508][ 99]LogAudioMixer: Display: Name: Speakers (Realtek High Definition Audio)
+[2020.05.12-23.45.02:508][ 99]LogAudioMixer: Display: Is Default: Yes
+[2020.05.12-23.45.02:508][ 99]LogAudioMixer: Display: Sample Rate: 48000
+[2020.05.12-23.45.02:508][ 99]LogAudioMixer: Display: Channel Count Used: 2
+[2020.05.12-23.45.02:508][ 99]LogAudioMixer: Display: Device Channel Count: 2
+[2020.05.12-23.45.02:508][ 99]LogAudioMixer: Display: Channel Order:
+[2020.05.12-23.45.02:508][ 99]LogAudioMixer: Display: 0: FrontLeft
+[2020.05.12-23.45.02:508][ 99]LogAudioMixer: Display: 1: FrontRight
+[2020.05.12-23.45.02:540][ 99]LogAudioMixer: Display: Using Audio Device Speakers (Realtek High Definition Audio)
+[2020.05.12-23.45.02:541][ 99]LogInit: FAudioDevice initialized.
+[2020.05.12-23.45.02:553][ 99]LogLoad: Game class is 'BP_GameMode_Areiazo_C'
+[2020.05.12-23.45.02:557][ 99]LogPhysics: Warning: Scale for /Game/Areiazo/Maps/UEDPIE_0_InnerChurch.InnerChurch:PersistentLevel.Floor24.StaticMeshComponent0 has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.250 Z=7.000
+[2020.05.12-23.45.02:557][ 99]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2020.05.12-23.45.02:557][ 99]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2020.05.12-23.45.02:558][ 99]LogWorld: Bringing World /Game/Areiazo/Maps/UEDPIE_0_InnerChurch.InnerChurch up for play (max tick rate 0) at 2020.05.12-16.45.02
+[2020.05.12-23.45.02:558][ 99]LogWorld: Bringing up level for play took: 0.004268
+[2020.05.12-23.45.02:559][ 99]LogOnline: OSS: Creating online subsystem instance for: :Context_49
+[2020.05.12-23.45.02:560][ 99]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2020.05.12-23.45.02:560][ 99]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2020.05.12-23.45.02:560][ 99]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2020.05.12-23.45.02:561][ 99]LogLevel: Warning: Failed to find streaming level object associated with 'Map_Pause'
+[2020.05.12-23.45.02:561][ 99]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2020.05.12-23.45.02:561][ 99]PIE: Play in editor start time for /Game/Areiazo/Maps/UEDPIE_0_InnerChurch -0.374
+[2020.05.12-23.45.02:561][ 99]LogLevelStreaming: Display: FStreamLevelAction::UpdateOperation() LevelName Map_Pause, bIsLevelValid 0
+[2020.05.12-23.45.03:333][184]LogScript: Warning: UGameplayStatics::SpawnObject no class specified
+[2020.05.12-23.45.03:334][184]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/AVRFramework/Framework/BP_Pawn_NonVR_Normal.BP_Pawn_NonVR_Normal_C:ExecuteUbergraph_BP_Pawn_NonVR_Normal'!
+[2020.05.12-23.45.03:336][184]LogScript: Warning: UGameplayStatics::SpawnObject no class specified
+[2020.05.12-23.45.03:336][184]LogScript: Warning: Accessed None trying to read property CallFunc_getInfoLevels_InfoLevels
+	BP_GameMode_Areiazo_C /Game/Areiazo/Maps/UEDPIE_0_InnerChurch.InnerChurch:PersistentLevel.BP_GameMode_Areiazo_C_0
+	Function /Game/AVRFramework/Framework/BP_GameMode_Main.BP_GameMode_Main_C:UpdateInfoUI:0036
+[2020.05.12-23.45.03:336][184]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_getInfoLevels_InfoLevels". Blueprint:  BP_GameMode_Main Function:  Update Info UI Graph:  UpdateInfoUI Node:  Branch
+[2020.05.12-23.45.03:336][184]LogScript: Warning: UGameplayStatics::SpawnObject no class specified
+[2020.05.12-23.45.13:419][323]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.12-23.45.13:419][323]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.12-23.45.13:420][323]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.05.12-23.45.13:420][323]LogWorld: BeginTearingDown for /Game/Areiazo/Maps/UEDPIE_0_InnerChurch
+[2020.05.12-23.45.13:420][323]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.12-23.45.13:420][323]LogWorld: UWorld::CleanupWorld for InnerChurch, bSessionEnded=true, bCleanupResources=true
+[2020.05.12-23.45.13:421][323]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.05.12-23.45.13:429][323]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.05.12-23.45.13:438][323]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.05.12-23.45.13:486][323]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.12-23.45.13:489][323]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.05.12-23.45.13:497][323]LogUObjectHash: Compacting FUObjectHashTables data took   5.32ms
+[2020.05.12-23.45.13:558][324]LogPlayLevel: Display: Destroying online subsystem :Context_49
+[2020.05.12-23.45.15:208][414]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Areiazo/Maps/InnerChurch" FILE="../../../../../GitHub/Le-VR-Project/Content/Areiazo/Maps/InnerChurch.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2020.05.12-23.45.15:260][414]LogUObjectHash: Compacting FUObjectHashTables data took   1.44ms
+[2020.05.12-23.45.15:311][414]LogSavePackage: Moving '../../../../../GitHub/Le-VR-Project/Saved/InnerChurch8C85DDC94A18FFA96F1450B851F1D779.tmp' to '../../../../../GitHub/Le-VR-Project/Content/Areiazo/Maps/InnerChurch.umap'
+[2020.05.12-23.45.15:345][414]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Areiazo/Maps/InnerChurch_BuiltData" FILE="../../../../../GitHub/Le-VR-Project/Content/Areiazo/Maps/InnerChurch_BuiltData.uasset" SILENT=true
+[2020.05.12-23.45.15:362][414]LogSavePackage: Moving '../../../../../GitHub/Le-VR-Project/Saved/InnerChurch_BuiltDataB898522A486122A826457F8EA0130D3F.tmp' to '../../../../../GitHub/Le-VR-Project/Content/Areiazo/Maps/InnerChurch_BuiltData.uasset'
+[2020.05.12-23.45.15:392][414]AssetCheck: New page: Asset Save: multiple assets
+[2020.05.12-23.45.15:392][414]LogContentValidation: Display: Validating World /Game/Areiazo/Maps/InnerChurch.InnerChurch
+[2020.05.12-23.45.15:392][414]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Areiazo/Maps/InnerChurch_BuiltData.InnerChurch_BuiltData
